@@ -1,0 +1,4 @@
+﻿particion,pacientes,estudios,archivos_esperados,archivos_existentes,archivos_legibles,mascaras_legibles,mascaras_con_revision,t1n_existentes,t1n_legibles,t1c_existentes,t1c_legibles,t2w_existentes,t2w_legibles,t2f_existentes,t2f_legibles,seg_existentes,seg_legibles
+train,793,878,4390,4390,4390,878,0,878,878,878,878,878,878,878,878,878,878
+validation,170,185,925,925,925,185,0,185,185,185,185,185,185,185,185,185,185
+test,170,188,940,940,940,188,0,188,188,188,188,188,188,188,188,188,188

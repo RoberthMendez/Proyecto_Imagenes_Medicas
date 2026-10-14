@@ -1,0 +1,4 @@
+﻿particion_a,particion_b,n_grupos_a,n_grupos_b,n_grupos_compartidos,grupos_compartidos,resultado
+train,validation,793,170,0,,CORRECTO
+train,test,793,170,0,,CORRECTO
+validation,test,170,170,0,,CORRECTO

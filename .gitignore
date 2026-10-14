@@ -1,0 +1,82 @@
+
+# ==========================================
+# ENTORNO PYTHON
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# PYTHON: CACHÉ Y ARCHIVOS TEMPORALES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# EDITORES Y SISTEMA OPERATIVO
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# VARIABLES DE ENTORNO Y CREDENCIALES
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# DATASET ORIGINAL: NO SUBIR
+# ==========================================
+datos/
+data/
+datasets/
+
+# Archivos médicos y volúmenes originales
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.dcm
+
+# ==========================================
+# MODELOS ENTRENADOS Y PREDICCIONES PESADAS
+# ==========================================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npz
+
+# ==========================================
+# LOGS Y ARCHIVOS TEMPORALES
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ==========================================
+# RESULTADOS
+# ==========================================
+# No ignorar resultados/ de forma global.
+# Queremos conservar y versionar la evidencia útil:
+# manifiestos, particiones, métricas, configuraciones,
+# reportes, figuras y documentación.
+#
+# Los modelos (.pth) y predicciones (.npz) ya están
+# excluidos por las reglas anteriores.

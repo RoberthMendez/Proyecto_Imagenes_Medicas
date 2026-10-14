@@ -1,0 +1,28 @@
+{
+  "run_id": "piloto_30pct_2epocas",
+  "semilla": 42,
+  "epocas": 2,
+  "batch_size": 2,
+  "tasa_aprendizaje": 0.0001,
+  "hilos_cpu": 14,
+  "dispositivo": "cpu",
+  "modalidades": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "fraccion_pacientes": 0.3,
+  "pacientes_entrenamiento": 238,
+  "pacientes_validacion": 51,
+  "estudios_entrenamiento": 270,
+  "estudios_validacion": 56,
+  "cortes_entrenamiento": 41850,
+  "cortes_validacion": 8680,
+  "modelo": "UNet2D",
+  "base": 16,
+  "perdida": "CrossEntropy + Dice suave para clases 1, 2 y 3",
+  "normalizacion": "Por modalidad y estudio: media y desviación estándar de vóxeles no nulos; ceros preservados.",
+  "evaluacion": "Dice por clase y estudio completo, acumulando cortes axiales.",
+  "test": "Reservado; no utilizado."
+}

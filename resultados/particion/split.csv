@@ -1,0 +1,1134 @@
+﻿group_key,split,n_samples,label_summary,evidence_level
+00000,test,1,"[0,1,2,3]",ID_verificado
+00002,train,1,"[0,1,2,3]",ID_verificado
+00003,validation,1,"[0,1,2,3]",ID_verificado
+00005,test,1,"[0,1,2,3]",ID_verificado
+00006,train,1,"[0,1,2,3]",ID_verificado
+00008,train,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00009,train,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00011,validation,1,"[0,1,2,3]",ID_verificado
+00012,train,1,"[0,1,2,3]",ID_verificado
+00014,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00016,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00017,train,2,"[0,1,2,3]; [0,2]",ID_verificado
+00018,train,1,"[0,1,2,3]",ID_verificado
+00019,test,1,"[0,1,2,3]",ID_verificado
+00020,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00021,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00022,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00024,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00025,train,1,"[0,1,2,3]",ID_verificado
+00026,test,1,"[0,1,2,3]",ID_verificado
+00028,train,1,"[0,1,2,3]",ID_verificado
+00030,validation,1,"[0,1,2,3]",ID_verificado
+00031,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00032,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00033,train,1,"[0,2,3]",ID_verificado
+00035,train,1,"[0,1,2,3]",ID_verificado
+00036,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00043,train,1,"[0,1,2,3]",ID_verificado
+00044,train,1,"[0,1,2,3]",ID_verificado
+00045,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00046,train,1,"[0,1,2,3]",ID_verificado
+00048,train,2,"[0,1,2,3]; [0,2]",ID_verificado
+00049,validation,1,"[0,1,2,3]",ID_verificado
+00051,train,1,"[0,1,2,3]",ID_verificado
+00052,train,1,"[0,1,2,3]",ID_verificado
+00053,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00054,train,1,"[0,1,2,3]",ID_verificado
+00056,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00058,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00059,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00060,train,1,"[0,1,2,3]",ID_verificado
+00061,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00062,train,1,"[0,1,2,3]",ID_verificado
+00063,train,1,"[0,1,2,3]",ID_verificado
+00064,train,1,"[0,1,2,3]",ID_verificado
+00066,train,1,"[0,1,2,3]",ID_verificado
+00068,train,1,"[0,1,2,3]",ID_verificado
+00070,train,1,"[0,1,2,3]",ID_verificado
+00071,train,1,"[0,1,2,3]",ID_verificado
+00072,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00074,train,1,"[0,1,2,3]",ID_verificado
+00077,test,1,"[0,1,2,3]",ID_verificado
+00078,train,1,"[0,1,2,3]",ID_verificado
+00081,train,1,"[0,1,2,3]",ID_verificado
+00084,test,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00085,validation,1,"[0,1,2,3]",ID_verificado
+00087,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00088,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00089,validation,1,"[0,1,2,3]",ID_verificado
+00090,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00094,validation,1,"[0,1,2,3]",ID_verificado
+00095,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00096,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00097,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00098,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00099,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00100,train,1,"[0,1,2,3]",ID_verificado
+00101,train,1,"[0,1,2,3]",ID_verificado
+00102,train,1,"[0,1,2,3]",ID_verificado
+00103,validation,1,"[0,1,2,3]",ID_verificado
+00104,test,1,"[0,1,2,3]",ID_verificado
+00105,train,1,"[0,1,2,3]",ID_verificado
+00106,validation,1,"[0,1,2,3]",ID_verificado
+00107,train,1,"[0,1,2,3]",ID_verificado
+00108,train,1,"[0,1,2,3]",ID_verificado
+00109,train,1,"[0,1,2,3]",ID_verificado
+00110,train,1,"[0,1,2,3]",ID_verificado
+00111,validation,1,"[0,1,2,3]",ID_verificado
+00112,train,1,"[0,1,2,3]",ID_verificado
+00113,train,1,"[0,1,2,3]",ID_verificado
+00115,test,1,"[0,1,2,3]",ID_verificado
+00116,train,1,"[0,1,2,3]",ID_verificado
+00117,validation,1,"[0,1,2,3]",ID_verificado
+00118,train,1,"[0,1,2,3]",ID_verificado
+00120,train,1,"[0,1,2,3]",ID_verificado
+00121,train,1,"[0,1,2,3]",ID_verificado
+00122,train,1,"[0,1,2,3]",ID_verificado
+00123,test,1,"[0,1,2,3]",ID_verificado
+00124,test,1,"[0,1,2,3]",ID_verificado
+00126,train,1,"[0,1,2,3]",ID_verificado
+00127,train,1,"[0,1,2,3]",ID_verificado
+00128,train,1,"[0,1,2,3]",ID_verificado
+00130,train,1,"[0,1,2,3]",ID_verificado
+00131,test,1,"[0,1,2,3]",ID_verificado
+00132,train,1,"[0,1,2,3]",ID_verificado
+00133,validation,1,"[0,1,2,3]",ID_verificado
+00134,test,1,"[0,1,2,3]",ID_verificado
+00136,train,1,"[0,1,2,3]",ID_verificado
+00137,train,1,"[0,1,2,3]",ID_verificado
+00138,validation,1,"[0,1,2,3]",ID_verificado
+00139,validation,1,"[0,1,2,3]",ID_verificado
+00140,train,1,"[0,1,2,3]",ID_verificado
+00142,train,1,"[0,1,2,3]",ID_verificado
+00143,train,1,"[0,1,2,3]",ID_verificado
+00144,train,1,"[0,1,2,3]",ID_verificado
+00146,train,1,"[0,1,2,3]",ID_verificado
+00147,train,1,"[0,1,2,3]",ID_verificado
+00148,train,1,"[0,1,2,3]",ID_verificado
+00149,test,1,"[0,1,2,3]",ID_verificado
+00150,train,1,"[0,1,2,3]",ID_verificado
+00151,train,1,"[0,1,2,3]",ID_verificado
+00152,validation,1,"[0,1,2,3]",ID_verificado
+00154,train,1,"[0,1,2,3]",ID_verificado
+00155,train,1,"[0,1,2,3]",ID_verificado
+00156,test,1,"[0,1,2,3]",ID_verificado
+00157,train,1,"[0,1,2,3]",ID_verificado
+00158,train,1,"[0,1,2,3]",ID_verificado
+00159,train,1,"[0,1,2,3]",ID_verificado
+00160,train,1,"[0,1,2,3]",ID_verificado
+00162,train,1,"[0,1,2,3]",ID_verificado
+00165,train,1,"[0,1,2,3]",ID_verificado
+00166,train,1,"[0,1,2,3]",ID_verificado
+00167,validation,1,"[0,1,2,3]",ID_verificado
+00170,validation,1,"[0,2,3]",ID_verificado
+00171,train,1,"[0,2,3]",ID_verificado
+00172,train,1,"[0,1,2,3]",ID_verificado
+00176,train,1,"[0,1,2,3]",ID_verificado
+00177,train,1,"[0,1,2,3]",ID_verificado
+00178,validation,1,"[0,1,2,3]",ID_verificado
+00183,train,1,"[0,1,2,3]",ID_verificado
+00184,test,1,"[0,1,2,3]",ID_verificado
+00185,validation,1,"[0,1,2,3]",ID_verificado
+00186,train,1,"[0,1,2,3]",ID_verificado
+00187,train,1,"[0,1,2,3]",ID_verificado
+00188,train,1,"[0,1,2,3]",ID_verificado
+00191,test,1,"[0,1,2,3]",ID_verificado
+00192,train,1,"[0,1,2,3]",ID_verificado
+00193,train,1,"[0,1,2,3]",ID_verificado
+00194,train,1,"[0,1,2,3]",ID_verificado
+00195,train,1,"[0,1,2,3]",ID_verificado
+00196,train,1,"[0,1,2,3]",ID_verificado
+00199,train,1,"[0,1,2,3]",ID_verificado
+00201,test,1,"[0,1,2,3]",ID_verificado
+00203,validation,1,"[0,1,2,3]",ID_verificado
+00204,train,1,"[0,1,2,3]",ID_verificado
+00206,train,1,"[0,1,2,3]",ID_verificado
+00207,test,1,"[0,1,2,3]",ID_verificado
+00209,train,1,"[0,1,2,3]",ID_verificado
+00210,train,1,"[0,1,2,3]",ID_verificado
+00211,train,1,"[0,1,2,3]",ID_verificado
+00212,train,1,"[0,1,2,3]",ID_verificado
+00214,train,1,"[0,1,2,3]",ID_verificado
+00216,train,1,"[0,1,2,3]",ID_verificado
+00217,train,1,"[0,1,2,3]",ID_verificado
+00218,train,1,"[0,2,3]",ID_verificado
+00219,train,1,"[0,1,2,3]",ID_verificado
+00220,test,1,"[0,1,2,3]",ID_verificado
+00221,train,1,"[0,1,2,3]",ID_verificado
+00222,validation,1,"[0,1,2,3]",ID_verificado
+00227,train,1,"[0,1,2,3]",ID_verificado
+00228,train,1,"[0,1,2,3]",ID_verificado
+00230,test,1,"[0,1,2,3]",ID_verificado
+00231,train,1,"[0,1,2,3]",ID_verificado
+00233,test,1,"[0,1,2,3]",ID_verificado
+00234,train,1,"[0,1,2,3]",ID_verificado
+00235,test,1,"[0,1,2,3]",ID_verificado
+00236,train,1,"[0,1,2,3]",ID_verificado
+00237,train,1,"[0,1,2,3]",ID_verificado
+00238,validation,1,"[0,1,2,3]",ID_verificado
+00239,validation,1,"[0,1,2,3]",ID_verificado
+00240,validation,1,"[0,1,2,3]",ID_verificado
+00241,train,1,"[0,1,2,3]",ID_verificado
+00242,train,1,"[0,1,2,3]",ID_verificado
+00243,train,1,"[0,2,3]",ID_verificado
+00246,train,1,"[0,1,2,3]",ID_verificado
+00247,train,1,"[0,1,2,3]",ID_verificado
+00249,train,1,"[0,1,2,3]",ID_verificado
+00250,train,1,"[0,1,2,3]",ID_verificado
+00251,test,1,"[0,1,2,3]",ID_verificado
+00253,train,1,"[0,1,2,3]",ID_verificado
+00254,train,1,"[0,1,2,3]",ID_verificado
+00258,train,1,"[0,1,2,3]",ID_verificado
+00259,test,1,"[0,1,2,3]",ID_verificado
+00260,train,1,"[0,1,2,3]",ID_verificado
+00261,train,1,"[0,1,2,3]",ID_verificado
+00262,train,1,"[0,1,2,3]",ID_verificado
+00263,test,1,"[0,1,2,3]",ID_verificado
+00266,validation,1,"[0,1,2,3]",ID_verificado
+00267,train,1,"[0,1,2,3]",ID_verificado
+00269,test,1,"[0,1,2,3]",ID_verificado
+00270,validation,1,"[0,2,3]",ID_verificado
+00271,test,1,"[0,1,2,3]",ID_verificado
+00273,train,1,"[0,1,2,3]",ID_verificado
+00274,train,1,"[0,1,2,3]",ID_verificado
+00275,validation,1,"[0,1,2,3]",ID_verificado
+00280,train,1,"[0,1,2,3]",ID_verificado
+00281,validation,1,"[0,1,2,3]",ID_verificado
+00282,train,1,"[0,1,2,3]",ID_verificado
+00283,test,1,"[0,1,2,3]",ID_verificado
+00284,train,1,"[0,1,2,3]",ID_verificado
+00285,train,1,"[0,1,2,3]",ID_verificado
+00286,train,1,"[0,1,2,3]",ID_verificado
+00288,train,1,"[0,1,2,3]",ID_verificado
+00289,test,1,"[0,1,2,3]",ID_verificado
+00290,train,1,"[0,1,2,3]",ID_verificado
+00291,validation,1,"[0,1,2,3]",ID_verificado
+00292,test,1,"[0,1,2,3]",ID_verificado
+00293,train,1,"[0,1,2,3]",ID_verificado
+00294,train,1,"[0,1,2,3]",ID_verificado
+00296,test,1,"[0,1,2,3]",ID_verificado
+00297,train,1,"[0,1,2,3]",ID_verificado
+00298,train,1,"[0,1,2,3]",ID_verificado
+00299,train,1,"[0,1,2,3]",ID_verificado
+00300,train,1,"[0,1,2,3]",ID_verificado
+00301,train,1,"[0,1,2,3]",ID_verificado
+00303,train,1,"[0,1,2,3]",ID_verificado
+00304,validation,1,"[0,1,2,3]",ID_verificado
+00305,train,1,"[0,1,2,3]",ID_verificado
+00306,validation,1,"[0,1,2,3]",ID_verificado
+00309,validation,1,"[0,1,2,3]",ID_verificado
+00310,train,1,"[0,1,2,3]",ID_verificado
+00311,train,1,"[0,1,2,3]",ID_verificado
+00312,validation,1,"[0,1,2,3]",ID_verificado
+00313,train,1,"[0,1,2,3]",ID_verificado
+00314,test,1,"[0,1,2,3]",ID_verificado
+00316,validation,1,"[0,1,2,3]",ID_verificado
+00317,train,1,"[0,1,2,3]",ID_verificado
+00318,train,1,"[0,1,2,3]",ID_verificado
+00320,test,1,"[0,1,2,3]",ID_verificado
+00321,train,1,"[0,1,2,3]",ID_verificado
+00322,validation,1,"[0,1,2,3]",ID_verificado
+00324,train,1,"[0,1,2,3]",ID_verificado
+00325,train,1,"[0,1,2,3]",ID_verificado
+00327,train,1,"[0,1,2,3]",ID_verificado
+00328,test,1,"[0,1,2,3]",ID_verificado
+00329,validation,1,"[0,1,2,3]",ID_verificado
+00331,train,1,"[0,1,2,3]",ID_verificado
+00332,train,1,"[0,1,2,3]",ID_verificado
+00334,train,1,"[0,1,2,3]",ID_verificado
+00336,train,1,"[0,1,2,3]",ID_verificado
+00338,validation,1,"[0,1,2,3]",ID_verificado
+00339,train,1,"[0,1,2,3]",ID_verificado
+00340,validation,1,"[0,1,2,3]",ID_verificado
+00341,validation,1,"[0,1,2,3]",ID_verificado
+00343,train,1,"[0,1,2,3]",ID_verificado
+00344,test,1,"[0,1,2,3]",ID_verificado
+00346,test,1,"[0,1,2,3]",ID_verificado
+00347,train,1,"[0,1,2,3]",ID_verificado
+00348,validation,1,"[0,1,2,3]",ID_verificado
+00349,train,1,"[0,1,2,3]",ID_verificado
+00350,train,1,"[0,1,2,3]",ID_verificado
+00351,train,1,"[0,1,2,3]",ID_verificado
+00352,validation,1,"[0,1,2,3]",ID_verificado
+00353,validation,1,"[0,1,2,3]",ID_verificado
+00356,validation,1,"[0,1,2,3]",ID_verificado
+00359,test,1,"[0,1,2,3]",ID_verificado
+00360,train,1,"[0,1,2,3]",ID_verificado
+00364,train,1,"[0,1,2,3]",ID_verificado
+00366,train,1,"[0,1,2,3]",ID_verificado
+00367,train,1,"[0,1,2,3]",ID_verificado
+00369,train,1,"[0,1,2,3]",ID_verificado
+00370,train,1,"[0,1,2,3]",ID_verificado
+00371,train,1,"[0,1,2,3]",ID_verificado
+00373,train,1,"[0,1,2,3]",ID_verificado
+00375,train,1,"[0,1,2,3]",ID_verificado
+00376,train,1,"[0,1,2,3]",ID_verificado
+00377,train,1,"[0,1,2,3]",ID_verificado
+00378,train,1,"[0,1,2,3]",ID_verificado
+00379,train,1,"[0,1,2,3]",ID_verificado
+00380,test,1,"[0,2,3]",ID_verificado
+00382,train,1,"[0,1,2,3]",ID_verificado
+00383,validation,1,"[0,1,2,3]",ID_verificado
+00386,train,1,"[0,1,2,3]",ID_verificado
+00387,train,1,"[0,1,2,3]",ID_verificado
+00388,train,1,"[0,1,2,3]",ID_verificado
+00389,train,1,"[0,1,2,3]",ID_verificado
+00390,train,1,"[0,1,2,3]",ID_verificado
+00391,train,1,"[0,1,2,3]",ID_verificado
+00392,train,1,"[0,1,2,3]",ID_verificado
+00395,train,1,"[0,1,2,3]",ID_verificado
+00397,train,1,"[0,1,2,3]",ID_verificado
+00399,train,1,"[0,1,2,3]",ID_verificado
+00400,train,1,"[0,1,2,3]",ID_verificado
+00401,test,1,"[0,1,2,3]",ID_verificado
+00402,train,1,"[0,1,2,3]",ID_verificado
+00403,test,1,"[0,1,2,3]",ID_verificado
+00404,train,1,"[0,1,2,3]",ID_verificado
+00405,train,1,"[0,1,2,3]",ID_verificado
+00406,train,1,"[0,1,2,3]",ID_verificado
+00407,train,1,"[0,1,2,3]",ID_verificado
+00409,train,1,"[0,1,2,3]",ID_verificado
+00410,train,1,"[0,1,2,3]",ID_verificado
+00412,test,1,"[0,2,3]",ID_verificado
+00413,train,1,"[0,1,2,3]",ID_verificado
+00414,train,1,"[0,1,2,3]",ID_verificado
+00416,train,1,"[0,1,2,3]",ID_verificado
+00417,train,1,"[0,1,2,3]",ID_verificado
+00418,train,1,"[0,1,2,3]",ID_verificado
+00419,train,1,"[0,1,2,3]",ID_verificado
+00421,train,1,"[0,1,2,3]",ID_verificado
+00423,test,1,"[0,1,2,3]",ID_verificado
+00425,train,1,"[0,1,2,3]",ID_verificado
+00426,train,1,"[0,1,2,3]",ID_verificado
+00429,validation,1,"[0,1,2,3]",ID_verificado
+00430,train,1,"[0,1,2,3]",ID_verificado
+00431,test,1,"[0,1,2,3]",ID_verificado
+00432,train,1,"[0,1,2,3]",ID_verificado
+00433,train,1,"[0,1,2,3]",ID_verificado
+00436,train,1,"[0,1,2,3]",ID_verificado
+00440,train,1,"[0,1,2,3]",ID_verificado
+00441,train,1,"[0,1,2,3]",ID_verificado
+00442,train,1,"[0,1,2,3]",ID_verificado
+00443,train,1,"[0,1,2,3]",ID_verificado
+00444,test,1,"[0,1,2,3]",ID_verificado
+00445,test,1,"[0,1,2,3]",ID_verificado
+00446,train,1,"[0,1,2,3]",ID_verificado
+00448,train,1,"[0,1,2,3]",ID_verificado
+00449,train,1,"[0,1,2,3]",ID_verificado
+00451,test,1,"[0,1,2,3]",ID_verificado
+00452,validation,1,"[0,1,2,3]",ID_verificado
+00453,train,1,"[0,1,2,3]",ID_verificado
+00454,validation,1,"[0,1,2,3]",ID_verificado
+00455,train,1,"[0,1,2,3]",ID_verificado
+00456,train,1,"[0,1,2,3]",ID_verificado
+00457,train,1,"[0,1,2,3]",ID_verificado
+00459,train,1,"[0,1,2,3]",ID_verificado
+00464,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00466,test,1,"[0,1,2,3]",ID_verificado
+00468,train,1,"[0,1,2,3]",ID_verificado
+00469,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00470,train,1,"[0,1,2,3]",ID_verificado
+00472,test,1,"[0,1,2,3]",ID_verificado
+00477,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00478,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00479,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00480,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00481,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00483,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00485,validation,2,"[0,2,3]; [0,2,3]",ID_verificado
+00488,train,1,"[0,1,2,3]",ID_verificado
+00491,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00493,train,1,"[0,1,2,3]",ID_verificado
+00494,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00495,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00496,train,1,"[0,1,2,3]",ID_verificado
+00498,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00499,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00500,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00501,train,1,"[0,1,2,3]",ID_verificado
+00502,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00504,test,1,"[0,1,2,3]",ID_verificado
+00505,train,1,"[0,1,2,3]",ID_verificado
+00506,train,1,"[0,1,2,3]",ID_verificado
+00507,train,1,"[0,1,2,3]",ID_verificado
+00510,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00511,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00512,train,1,"[0,1,2,3]",ID_verificado
+00513,train,1,"[0,1,2,3]",ID_verificado
+00514,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00516,train,1,"[0,1,2,3]",ID_verificado
+00517,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00518,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00519,validation,1,"[0,1,2,3]",ID_verificado
+00520,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00523,train,1,"[0,1,2,3]",ID_verificado
+00524,train,1,"[0,1,2,3]",ID_verificado
+00525,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00526,train,1,"[0,1,2,3]",ID_verificado
+00528,train,1,"[0,1,2,3]",ID_verificado
+00529,train,1,"[0,1,2,3]",ID_verificado
+00530,train,1,"[0,1,2,3]",ID_verificado
+00532,test,1,"[0,1,2,3]",ID_verificado
+00533,train,1,"[0,1,2,3]",ID_verificado
+00537,train,1,"[0,1,2,3]",ID_verificado
+00538,train,1,"[0,1,2,3]",ID_verificado
+00539,train,1,"[0,1,2,3]",ID_verificado
+00540,train,2,"[0,2,3]; [0,2,3]",ID_verificado
+00542,train,1,"[0,1,2,3]",ID_verificado
+00543,train,1,"[0,1,2,3]",ID_verificado
+00544,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00545,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00547,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00548,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00549,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00550,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00551,train,1,"[0,1,2,3]",ID_verificado
+00552,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00554,train,1,"[0,1,2,3]",ID_verificado
+00555,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00556,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00557,train,1,"[0,1,2,3]",ID_verificado
+00558,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00559,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00561,test,1,"[0,1,2,3]",ID_verificado
+00563,train,1,"[0,1,2,3]",ID_verificado
+00565,train,1,"[0,1,2,3]",ID_verificado
+00567,train,1,"[0,1,2,3]",ID_verificado
+00568,train,1,"[0,1,2,3]",ID_verificado
+00569,train,1,"[0,1,2,3]",ID_verificado
+00570,validation,1,"[0,1,2,3]",ID_verificado
+00571,train,1,"[0,1,2,3]",ID_verificado
+00572,train,1,"[0,1,2,3]",ID_verificado
+00574,train,1,"[0,1,2,3]",ID_verificado
+00575,train,1,"[0,1,2,3]",ID_verificado
+00576,train,1,"[0,1,2,3]",ID_verificado
+00577,train,1,"[0,1,2,3]",ID_verificado
+00578,train,1,"[0,1,2,3]",ID_verificado
+00579,test,1,"[0,1,2,3]",ID_verificado
+00580,validation,1,"[0,1,2,3]",ID_verificado
+00581,train,1,"[0,1,2,3]",ID_verificado
+00582,validation,1,"[0,1,2,3]",ID_verificado
+00583,train,1,"[0,1,2,3]",ID_verificado
+00584,validation,1,"[0,1,2,3]",ID_verificado
+00586,validation,1,"[0,1,2,3]",ID_verificado
+00587,train,1,"[0,1,2,3]",ID_verificado
+00588,train,1,"[0,1,2,3]",ID_verificado
+00589,validation,1,"[0,1,2,3]",ID_verificado
+00590,train,1,"[0,1,2,3]",ID_verificado
+00591,train,1,"[0,1,2,3]",ID_verificado
+00593,train,1,"[0,1,2,3]",ID_verificado
+00594,validation,1,"[0,1,2,3]",ID_verificado
+00596,train,1,"[0,1,2,3]",ID_verificado
+00597,train,1,"[0,1,2,3]",ID_verificado
+00598,train,1,"[0,1,2,3]",ID_verificado
+00599,train,1,"[0,1,2,3]",ID_verificado
+00601,train,1,"[0,1,2,3]",ID_verificado
+00602,train,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00604,train,1,"[0,1,2,3]",ID_verificado
+00605,train,1,"[0,1,2,3]",ID_verificado
+00606,test,1,"[0,1,2,3]",ID_verificado
+00607,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00608,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00610,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00611,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00612,train,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00613,test,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00615,train,1,"[0,1,2,3]",ID_verificado
+00616,train,1,"[0,1,2,3]",ID_verificado
+00618,train,1,"[0,1,2,3]",ID_verificado
+00619,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00620,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00621,validation,1,"[0,2,3]",ID_verificado
+00622,train,1,"[0,1,2,3]",ID_verificado
+00623,train,1,"[0,1,2,3]",ID_verificado
+00624,train,1,"[0,1,2,3]",ID_verificado
+00625,test,1,"[0,1,2,3]",ID_verificado
+00626,train,1,"[0,1,2,3]",ID_verificado
+00628,test,1,"[0,1,2,3]",ID_verificado
+00630,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00631,test,1,"[0,1,2,3]",ID_verificado
+00636,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00638,test,1,"[0,1,2,3]",ID_verificado
+00639,train,1,"[0,1,2,3]",ID_verificado
+00640,validation,1,"[0,1,2,3]",ID_verificado
+00641,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00642,train,1,"[0,1,2,3]",ID_verificado
+00645,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00646,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00649,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00650,validation,1,"[0,1,2,3]",ID_verificado
+00651,train,1,"[0,1,2,3]",ID_verificado
+00652,train,1,"[0,1,2,3]",ID_verificado
+00654,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00655,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00656,test,1,"[0,1,2,3]",ID_verificado
+00657,validation,1,"[0,1,2,3]",ID_verificado
+00658,test,1,"[0,1,2,3]",ID_verificado
+00659,train,1,"[0,1,2,3]",ID_verificado
+00661,train,1,"[0,1,2,3]",ID_verificado
+00663,test,1,"[0,1,2,3]",ID_verificado
+00667,train,1,"[0,1,2,3]",ID_verificado
+00668,train,1,"[0,2,3]",ID_verificado
+00674,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00675,validation,2,"[0,1,2,3]; [0,2]",ID_verificado
+00676,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00677,train,1,"[0,1,2,3]",ID_verificado
+00679,test,1,"[0,1,2,3]",ID_verificado
+00680,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00682,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00683,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00684,train,1,"[0,2,3]",ID_verificado
+00685,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00686,train,1,"[0,1,2,3]",ID_verificado
+00687,train,1,"[0,1,2,3]",ID_verificado
+00688,validation,1,"[0,1,2,3]",ID_verificado
+00689,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00690,validation,1,"[0,1,2,3]",ID_verificado
+00691,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00692,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00693,train,1,"[0,1,2,3]",ID_verificado
+00694,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00697,train,1,"[0,1,2,3]",ID_verificado
+00698,validation,1,"[0,1,2,3]",ID_verificado
+00703,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00704,train,1,"[0,1,2,3]",ID_verificado
+00705,train,1,"[0,1,2,3]",ID_verificado
+00706,train,1,"[0,1,2,3]",ID_verificado
+00707,test,1,"[0,1,2,3]",ID_verificado
+00708,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00709,train,1,"[0,1,2,3]",ID_verificado
+00714,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00715,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00716,train,1,"[0,1,2,3]",ID_verificado
+00718,train,1,"[0,1,2,3]",ID_verificado
+00723,train,1,"[0,1,2,3]",ID_verificado
+00724,test,1,"[0,1,2,3]",ID_verificado
+00725,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00727,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00728,train,1,"[0,1,2,3]",ID_verificado
+00729,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00730,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00731,train,2,"[0,2,3]; [0,2,3]",ID_verificado
+00732,test,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00733,train,2,"[0,1,2,3]; [0,2,3]",ID_verificado
+00734,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00735,train,2,"[0,2,3]; [0,2]",ID_verificado
+00736,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00737,train,1,"[0,1,2,3]",ID_verificado
+00739,train,1,"[0,1,2,3]",ID_verificado
+00740,test,1,"[0,1,2,3]",ID_verificado
+00742,validation,1,"[0,1,2,3]",ID_verificado
+00744,train,1,"[0,1,2,3]",ID_verificado
+00746,train,1,"[0,1,2,3]",ID_verificado
+00747,train,1,"[0,1,2,3]",ID_verificado
+00750,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00751,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00753,validation,2,"[0,2,3]; [0,1,2,3]",ID_verificado
+00756,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00757,train,1,"[0,1,2,3]",ID_verificado
+00758,validation,1,"[0,1,2,3]",ID_verificado
+00759,train,1,"[0,1,2,3]",ID_verificado
+00760,train,1,"[0,1,2,3]",ID_verificado
+00764,train,1,"[0,1,2,3]",ID_verificado
+00765,train,1,"[0,1,2,3]",ID_verificado
+00767,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00768,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00772,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00773,train,1,"[0,1,2,3]",ID_verificado
+00774,test,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00775,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00777,validation,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+00778,test,1,"[0,1,2,3]",ID_verificado
+00780,test,1,"[0,1,2,3]",ID_verificado
+00781,test,1,"[0,1,2,3]",ID_verificado
+00782,train,1,"[0,1,2,3]",ID_verificado
+00784,validation,1,"[0,1,2,3]",ID_verificado
+00787,test,1,"[0,1,2,3]",ID_verificado
+00788,train,1,"[0,1,2,3]",ID_verificado
+00789,test,1,"[0,1,2,3]",ID_verificado
+00791,validation,1,"[0,1,2,3]",ID_verificado
+00792,train,1,"[0,1,2,3]",ID_verificado
+00793,train,1,"[0,1,2,3]",ID_verificado
+00795,test,1,"[0,1,2,3]",ID_verificado
+00796,validation,1,"[0,1,2,3]",ID_verificado
+00797,train,1,"[0,1,2,3]",ID_verificado
+00799,validation,1,"[0,1,2,3]",ID_verificado
+00800,train,1,"[0,1,2,3]",ID_verificado
+00801,train,1,"[0,1,2,3]",ID_verificado
+00802,train,1,"[0,1,2,3]",ID_verificado
+00803,train,1,"[0,1,2,3]",ID_verificado
+00804,train,1,"[0,1,2,3]",ID_verificado
+00805,train,1,"[0,1,2,3]",ID_verificado
+00806,validation,1,"[0,1,2,3]",ID_verificado
+00807,test,1,"[0,1,2,3]",ID_verificado
+00808,train,1,"[0,1,2,3]",ID_verificado
+00809,train,1,"[0,1,2,3]",ID_verificado
+00810,train,1,"[0,1,2,3]",ID_verificado
+00811,validation,1,"[0,1,2,3]",ID_verificado
+00814,train,1,"[0,1,2,3]",ID_verificado
+00816,test,1,"[0,1,2,3]",ID_verificado
+00818,train,1,"[0,1,2,3]",ID_verificado
+00819,train,1,"[0,1,2,3]",ID_verificado
+00820,train,1,"[0,1,2,3]",ID_verificado
+00823,train,1,"[0,1,2,3]",ID_verificado
+00824,train,1,"[0,1,2,3]",ID_verificado
+00828,train,1,"[0,1,2,3]",ID_verificado
+00830,train,1,"[0,1,2,3]",ID_verificado
+00831,train,1,"[0,1,2,3]",ID_verificado
+00834,train,1,"[0,1,2,3]",ID_verificado
+00836,train,1,"[0,1,2,3]",ID_verificado
+00837,test,1,"[0,1,2,3]",ID_verificado
+00838,train,1,"[0,1,2,3]",ID_verificado
+00839,train,1,"[0,1,2,3]",ID_verificado
+00840,validation,1,"[0,1,2,3]",ID_verificado
+00999,validation,1,"[0,1,2,3]",ID_verificado
+01000,train,1,"[0,1,2,3]",ID_verificado
+01001,train,1,"[0,1,2,3]",ID_verificado
+01002,train,1,"[0,1,2,3]",ID_verificado
+01003,train,1,"[0,1,2,3]",ID_verificado
+01004,train,1,"[0,1,2,3]",ID_verificado
+01005,validation,1,"[0,1,2,3]",ID_verificado
+01007,train,1,"[0,1,2,3]",ID_verificado
+01008,test,1,"[0,1,2,3]",ID_verificado
+01009,validation,1,"[0,1,2,3]",ID_verificado
+01010,train,1,"[0,1,2,3]",ID_verificado
+01011,train,1,"[0,1,2,3]",ID_verificado
+01012,train,1,"[0,1,2,3]",ID_verificado
+01013,train,1,"[0,1,2,3]",ID_verificado
+01014,validation,1,"[0,1,2,3]",ID_verificado
+01015,train,1,"[0,1,2,3]",ID_verificado
+01016,test,1,"[0,1,2,3]",ID_verificado
+01017,train,1,"[0,1,2,3]",ID_verificado
+01018,validation,1,"[0,1,2,3]",ID_verificado
+01019,train,1,"[0,1,2,3]",ID_verificado
+01020,train,1,"[0,1,2,3]",ID_verificado
+01021,train,1,"[0,1,2,3]",ID_verificado
+01022,train,1,"[0,1,2,3]",ID_verificado
+01023,train,1,"[0,1,2,3]",ID_verificado
+01024,validation,1,"[0,1,2,3]",ID_verificado
+01025,validation,1,"[0,1,2,3]",ID_verificado
+01026,train,1,"[0,1,2,3]",ID_verificado
+01027,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+01028,train,1,"[0,1,2,3]",ID_verificado
+01029,test,1,"[0,1,2,3]",ID_verificado
+01030,train,1,"[0,1,2,3]",ID_verificado
+01031,train,1,"[0,1,2,3]",ID_verificado
+01032,train,1,"[0,1,2,3]",ID_verificado
+01033,train,1,"[0,1,2,3]",ID_verificado
+01034,train,1,"[0,2,3]",ID_verificado
+01035,train,1,"[0,1,2,3]",ID_verificado
+01036,train,1,"[0,1,2,3]",ID_verificado
+01037,validation,1,"[0,1,2,3]",ID_verificado
+01038,train,1,"[0,1,2,3]",ID_verificado
+01039,test,1,"[0,1,2,3]",ID_verificado
+01040,train,1,"[0,1,2,3]",ID_verificado
+01041,train,1,"[0,1,2,3]",ID_verificado
+01042,train,1,"[0,1,2,3]",ID_verificado
+01043,train,1,"[0,1,2,3]",ID_verificado
+01044,train,1,"[0,1,2,3]",ID_verificado
+01045,train,1,"[0,1,2,3]",ID_verificado
+01046,train,1,"[0,1,2,3]",ID_verificado
+01047,train,1,"[0,1,2,3]",ID_verificado
+01048,train,1,"[0,1,2,3]",ID_verificado
+01049,train,1,"[0,1,2,3]",ID_verificado
+01050,train,1,"[0,1,2,3]",ID_verificado
+01051,train,1,"[0,1,2,3]",ID_verificado
+01052,train,1,"[0,1,2,3]",ID_verificado
+01053,train,1,"[0,1,2,3]",ID_verificado
+01054,train,1,"[0,1,2,3]",ID_verificado
+01055,train,1,"[0,1,2,3]",ID_verificado
+01056,test,1,"[0,1,2,3]",ID_verificado
+01057,train,1,"[0,1,2,3]",ID_verificado
+01058,train,1,"[0,1,2,3]",ID_verificado
+01059,train,1,"[0,1,2,3]",ID_verificado
+01060,test,1,"[0,1,2,3]",ID_verificado
+01061,train,1,"[0,1,2,3]",ID_verificado
+01062,test,1,"[0,1,2,3]",ID_verificado
+01063,train,1,"[0,1,2,3]",ID_verificado
+01064,train,1,"[0,1,2,3]",ID_verificado
+01065,train,1,"[0,1,2,3]",ID_verificado
+01066,train,1,"[0,1,2,3]",ID_verificado
+01067,train,1,"[0,1,2,3]",ID_verificado
+01068,train,1,"[0,1,2,3]",ID_verificado
+01069,train,1,"[0,1,2,3]",ID_verificado
+01070,test,1,"[0,1,2,3]",ID_verificado
+01071,train,1,"[0,1,2,3]",ID_verificado
+01072,train,1,"[0,1,2,3]",ID_verificado
+01073,train,1,"[0,1,2,3]",ID_verificado
+01074,train,1,"[0,1,2,3]",ID_verificado
+01075,train,1,"[0,2,3]",ID_verificado
+01076,train,1,"[0,1,2,3]",ID_verificado
+01077,validation,1,"[0,2,3]",ID_verificado
+01078,train,1,"[0,1,2,3]",ID_verificado
+01079,train,1,"[0,1,2,3]",ID_verificado
+01080,test,1,"[0,1,2,3]",ID_verificado
+01081,validation,1,"[0,1,2,3]",ID_verificado
+01082,train,1,"[0,1,2,3]",ID_verificado
+01083,validation,1,"[0,1,2,3]",ID_verificado
+01084,train,1,"[0,1,2,3]",ID_verificado
+01085,validation,1,"[0,1,2,3]",ID_verificado
+01086,train,1,"[0,1,2,3]",ID_verificado
+01087,train,1,"[0,1,2,3]",ID_verificado
+01088,train,1,"[0,1,2,3]",ID_verificado
+01089,train,1,"[0,1,2,3]",ID_verificado
+01090,validation,1,"[0,1,2,3]",ID_verificado
+01091,validation,1,"[0,1,2,3]",ID_verificado
+01092,train,1,"[0,1,2,3]",ID_verificado
+01093,validation,1,"[0,1,2,3]",ID_verificado
+01094,train,1,"[0,1,2,3]",ID_verificado
+01095,train,1,"[0,1,2,3]",ID_verificado
+01096,train,1,"[0,1,2,3]",ID_verificado
+01097,train,1,"[0,1,2,3]",ID_verificado
+01098,train,1,"[0,1,2,3]",ID_verificado
+01099,train,1,"[0,1,2,3]",ID_verificado
+01100,train,1,"[0,1,2,3]",ID_verificado
+01101,validation,1,"[0,1,2,3]",ID_verificado
+01102,train,1,"[0,1,2,3]",ID_verificado
+01103,validation,1,"[0,1,2,3]",ID_verificado
+01104,train,1,"[0,1,2,3]",ID_verificado
+01105,test,1,"[0,1,2,3]",ID_verificado
+01106,train,1,"[0,1,2,3]",ID_verificado
+01107,validation,1,"[0,1,2,3]",ID_verificado
+01108,train,1,"[0,1,2,3]",ID_verificado
+01109,train,1,"[0,1,2,3]",ID_verificado
+01110,train,1,"[0,1,2,3]",ID_verificado
+01111,train,1,"[0,1,2,3]",ID_verificado
+01112,test,1,"[0,1,2,3]",ID_verificado
+01113,train,1,"[0,1,2,3]",ID_verificado
+01114,train,1,"[0,1,2,3]",ID_verificado
+01115,train,1,"[0,1,2,3]",ID_verificado
+01116,train,1,"[0,1,2,3]",ID_verificado
+01117,train,1,"[0,1,2,3]",ID_verificado
+01118,train,1,"[0,1,2,3]",ID_verificado
+01119,train,1,"[0,1,2,3]",ID_verificado
+01120,test,1,"[0,1,2,3]",ID_verificado
+01121,train,1,"[0,1,2,3]",ID_verificado
+01122,validation,1,"[0,1,2,3]",ID_verificado
+01123,train,1,"[0,1,2,3]",ID_verificado
+01124,train,1,"[0,1,2,3]",ID_verificado
+01125,train,1,"[0,1,2,3]",ID_verificado
+01126,train,1,"[0,1,2,3]",ID_verificado
+01127,train,1,"[0,1,2,3]",ID_verificado
+01128,train,1,"[0,1,2,3]",ID_verificado
+01129,validation,1,"[0,1,2,3]",ID_verificado
+01130,train,1,"[0,1,2,3]",ID_verificado
+01131,train,1,"[0,1,2,3]",ID_verificado
+01132,train,1,"[0,1,2,3]",ID_verificado
+01133,train,1,"[0,1,2,3]",ID_verificado
+01134,train,1,"[0,1,2,3]",ID_verificado
+01135,train,1,"[0,1,2,3]",ID_verificado
+01136,train,1,"[0,1,2,3]",ID_verificado
+01137,train,1,"[0,1,2,3]",ID_verificado
+01138,train,1,"[0,1,2,3]",ID_verificado
+01139,train,1,"[0,1,2,3]",ID_verificado
+01140,validation,1,"[0,1,2,3]",ID_verificado
+01141,train,1,"[0,1,2,3]",ID_verificado
+01142,train,1,"[0,1,2,3]",ID_verificado
+01143,test,1,"[0,1,2,3]",ID_verificado
+01144,train,1,"[0,1,2,3]",ID_verificado
+01145,train,1,"[0,1,2,3]",ID_verificado
+01146,validation,1,"[0,1,2,3]",ID_verificado
+01147,train,1,"[0,1,2,3]",ID_verificado
+01148,train,1,"[0,1,2,3]",ID_verificado
+01149,train,1,"[0,1,2,3]",ID_verificado
+01150,train,1,"[0,1,2,3]",ID_verificado
+01151,test,1,"[0,1,2,3]",ID_verificado
+01152,test,1,"[0,1,2,3]",ID_verificado
+01153,train,1,"[0,1,2,3]",ID_verificado
+01154,train,1,"[0,1,2,3]",ID_verificado
+01155,test,1,"[0,1,2,3]",ID_verificado
+01156,test,1,"[0,1,2,3]",ID_verificado
+01157,test,1,"[0,1,2,3]",ID_verificado
+01158,train,1,"[0,1,2,3]",ID_verificado
+01159,train,1,"[0,2,3]",ID_verificado
+01160,train,2,"[0,1,2,3]; [0,1,2,3]",ID_verificado
+01161,validation,1,"[0,1,2,3]",ID_verificado
+01162,validation,1,"[0,1,2,3]",ID_verificado
+01163,test,1,"[0,1,2,3]",ID_verificado
+01164,validation,1,"[0,1,2,3]",ID_verificado
+01165,test,1,"[0,1,2,3]",ID_verificado
+01166,train,1,"[0,1,2,3]",ID_verificado
+01167,train,1,"[0,1,2,3]",ID_verificado
+01168,train,1,"[0,1,2,3]",ID_verificado
+01169,validation,1,"[0,1,2,3]",ID_verificado
+01170,train,1,"[0,1,2,3]",ID_verificado
+01171,train,1,"[0,1,2,3]",ID_verificado
+01172,train,1,"[0,1,2,3]",ID_verificado
+01173,train,1,"[0,1,2,3]",ID_verificado
+01174,test,1,"[0,1,2,3]",ID_verificado
+01175,train,1,"[0,1,2,3]",ID_verificado
+01176,train,1,"[0,1,2,3]",ID_verificado
+01177,train,1,"[0,1,2,3]",ID_verificado
+01178,train,1,"[0,1,2,3]",ID_verificado
+01179,train,1,"[0,2]",ID_verificado
+01180,train,1,"[0,1,2,3]",ID_verificado
+01181,validation,1,"[0,1,2,3]",ID_verificado
+01182,train,1,"[0,1,2,3]",ID_verificado
+01183,train,1,"[0,1,2,3]",ID_verificado
+01184,train,1,"[0,1,2,3]",ID_verificado
+01185,train,1,"[0,1,2,3]",ID_verificado
+01186,train,1,"[0,2,3]",ID_verificado
+01187,validation,1,"[0,1,2,3]",ID_verificado
+01188,train,1,"[0,1,2,3]",ID_verificado
+01189,validation,1,"[0,1,2,3]",ID_verificado
+01190,train,1,"[0,1,2,3]",ID_verificado
+01191,test,1,"[0,1,2,3]",ID_verificado
+01192,train,1,"[0,1,2,3]",ID_verificado
+01193,test,1,"[0,1,2,3]",ID_verificado
+01194,test,1,"[0,1,2,3]",ID_verificado
+01195,train,1,"[0,1,2,3]",ID_verificado
+01196,test,1,"[0,1,2,3]",ID_verificado
+01197,test,1,"[0,1,2,3]",ID_verificado
+01198,train,1,"[0,1,2,3]",ID_verificado
+01199,train,1,"[0,1,2,3]",ID_verificado
+01200,validation,1,"[0,1,2,3]",ID_verificado
+01201,train,1,"[0,1,2,3]",ID_verificado
+01202,train,1,"[0,1,2,3]",ID_verificado
+01203,train,1,"[0,1,2,3]",ID_verificado
+01204,test,1,"[0,1,2,3]",ID_verificado
+01205,train,1,"[0,1,2,3]",ID_verificado
+01206,train,1,"[0,1,2,3]",ID_verificado
+01207,train,1,"[0,1,2,3]",ID_verificado
+01208,train,1,"[0,1,2,3]",ID_verificado
+01209,train,1,"[0,1,2,3]",ID_verificado
+01210,train,1,"[0,1,2,3]",ID_verificado
+01211,train,1,"[0,1,2,3]",ID_verificado
+01212,train,1,"[0,1,2,3]",ID_verificado
+01213,test,1,"[0,1,2,3]",ID_verificado
+01214,train,1,"[0,1,2,3]",ID_verificado
+01215,train,1,"[0,1,2,3]",ID_verificado
+01216,train,1,"[0,1,2,3]",ID_verificado
+01217,train,1,"[0,1,2,3]",ID_verificado
+01218,validation,1,"[0,1,2,3]",ID_verificado
+01219,validation,1,"[0,1,2,3]",ID_verificado
+01220,train,1,"[0,1,2,3]",ID_verificado
+01221,train,1,"[0,1,2,3]",ID_verificado
+01222,train,1,"[0,1,2,3]",ID_verificado
+01223,train,1,"[0,1,2,3]",ID_verificado
+01224,train,1,"[0,1,2,3]",ID_verificado
+01225,train,1,"[0,1,2,3]",ID_verificado
+01226,test,1,"[0,1,2,3]",ID_verificado
+01227,train,1,"[0,1,2,3]",ID_verificado
+01228,train,1,"[0,1,2,3]",ID_verificado
+01229,train,1,"[0,1,2,3]",ID_verificado
+01230,validation,1,"[0,1,2,3]",ID_verificado
+01231,train,1,"[0,1,2,3]",ID_verificado
+01232,train,1,"[0,1,2,3]",ID_verificado
+01233,test,1,"[0,1,2,3]",ID_verificado
+01234,train,1,"[0,1,2,3]",ID_verificado
+01235,validation,1,"[0,1,2,3]",ID_verificado
+01236,train,1,"[0,1,2,3]",ID_verificado
+01237,test,1,"[0,1,2,3]",ID_verificado
+01238,train,1,"[0,1,2,3]",ID_verificado
+01239,train,1,"[0,1,2,3]",ID_verificado
+01240,train,1,"[0,1,2,3]",ID_verificado
+01241,train,1,"[0,1,2,3]",ID_verificado
+01242,test,1,"[0,1,2,3]",ID_verificado
+01243,validation,1,"[0,1,2,3]",ID_verificado
+01244,train,1,"[0,1,2,3]",ID_verificado
+01245,train,1,"[0,1,2,3]",ID_verificado
+01246,train,1,"[0,1,2,3]",ID_verificado
+01247,train,1,"[0,1,2,3]",ID_verificado
+01248,train,1,"[0,1,2,3]",ID_verificado
+01249,train,1,"[0,1,2,3]",ID_verificado
+01250,train,1,"[0,1,2,3]",ID_verificado
+01251,test,1,"[0,1,2,3]",ID_verificado
+01252,train,1,"[0,1,2,3]",ID_verificado
+01253,validation,1,"[0,1,2,3]",ID_verificado
+01254,train,1,"[0,1,2,3]",ID_verificado
+01255,train,1,"[0,2,3]",ID_verificado
+01256,train,1,"[0,1,2,3]",ID_verificado
+01257,train,1,"[0,1,2,3]",ID_verificado
+01258,train,1,"[0,1,2,3]",ID_verificado
+01259,train,1,"[0,1,2,3]",ID_verificado
+01260,train,1,"[0,1,2,3]",ID_verificado
+01261,train,1,"[0,1,2,3]",ID_verificado
+01262,train,1,"[0,1,2,3]",ID_verificado
+01263,train,1,"[0,1,2,3]",ID_verificado
+01264,train,1,"[0,1,2,3]",ID_verificado
+01265,train,1,"[0,1,2,3]",ID_verificado
+01266,train,1,"[0,1,2,3]",ID_verificado
+01267,test,1,"[0,1,2,3]",ID_verificado
+01268,train,1,"[0,1,2,3]",ID_verificado
+01269,train,1,"[0,1,2,3]",ID_verificado
+01270,train,1,"[0,1,2,3]",ID_verificado
+01271,train,1,"[0,1,2,3]",ID_verificado
+01272,validation,1,"[0,1,2,3]",ID_verificado
+01273,train,1,"[0,1,2,3]",ID_verificado
+01274,train,1,"[0,1,2,3]",ID_verificado
+01275,test,1,"[0,1,2,3]",ID_verificado
+01276,train,1,"[0,1,2,3]",ID_verificado
+01277,test,1,"[0,1,2,3]",ID_verificado
+01278,train,1,"[0,1,2,3]",ID_verificado
+01279,train,1,"[0,1,2,3]",ID_verificado
+01280,test,1,"[0,1,2,3]",ID_verificado
+01281,test,1,"[0,1,2,3]",ID_verificado
+01282,train,1,"[0,1,2,3]",ID_verificado
+01283,train,1,"[0,1,2,3]",ID_verificado
+01284,train,1,"[0,1,2,3]",ID_verificado
+01285,train,1,"[0,1,2,3]",ID_verificado
+01286,validation,1,"[0,1,2,3]",ID_verificado
+01287,train,1,"[0,1,2,3]",ID_verificado
+01288,train,1,"[0,1,2,3]",ID_verificado
+01289,train,1,"[0,1,2,3]",ID_verificado
+01290,train,1,"[0,1,2,3]",ID_verificado
+01291,train,1,"[0,1,2,3]",ID_verificado
+01292,train,1,"[0,1,2,3]",ID_verificado
+01293,test,1,"[0,1,2,3]",ID_verificado
+01294,validation,1,"[0,1,2,3]",ID_verificado
+01295,validation,1,"[0,1,2,3]",ID_verificado
+01296,validation,1,"[0,1,2,3]",ID_verificado
+01297,train,1,"[0,1,2,3]",ID_verificado
+01298,train,1,"[0,1,2,3]",ID_verificado
+01299,train,1,"[0,1,2,3]",ID_verificado
+01300,validation,1,"[0,1,2,3]",ID_verificado
+01301,train,1,"[0,1,2,3]",ID_verificado
+01302,train,1,"[0,1,2,3]",ID_verificado
+01303,train,1,"[0,1,2,3]",ID_verificado
+01304,validation,1,"[0,1,2,3]",ID_verificado
+01305,train,1,"[0,1,2,3]",ID_verificado
+01306,train,1,"[0,1,2,3]",ID_verificado
+01307,test,1,"[0,1,2,3]",ID_verificado
+01308,train,1,"[0,2,3]",ID_verificado
+01309,validation,1,"[0,1,2,3]",ID_verificado
+01310,validation,1,"[0,1,2,3]",ID_verificado
+01311,validation,1,"[0,1,2,3]",ID_verificado
+01312,test,1,"[0,1,2,3]",ID_verificado
+01313,train,1,"[0,1,2,3]",ID_verificado
+01314,validation,1,"[0,1,2,3]",ID_verificado
+01315,test,1,"[0,1,2,3]",ID_verificado
+01316,validation,1,"[0,1,2,3]",ID_verificado
+01317,train,1,"[0,1,2,3]",ID_verificado
+01318,train,1,"[0,1,2,3]",ID_verificado
+01319,train,1,"[0,1,2,3]",ID_verificado
+01320,train,1,"[0,1,2,3]",ID_verificado
+01321,train,1,"[0,1,2,3]",ID_verificado
+01322,train,1,"[0,1,2,3]",ID_verificado
+01323,validation,1,"[0,1,2,3]",ID_verificado
+01324,train,1,"[0,1,2,3]",ID_verificado
+01325,validation,1,"[0,1,2,3]",ID_verificado
+01326,train,1,"[0,1,2,3]",ID_verificado
+01327,train,1,"[0,1,2,3]",ID_verificado
+01328,train,1,"[0,1,2,3]",ID_verificado
+01329,train,1,"[0,1,2,3]",ID_verificado
+01330,train,1,"[0,1,2,3]",ID_verificado
+01331,train,1,"[0,1,2,3]",ID_verificado
+01332,validation,1,"[0,1,2,3]",ID_verificado
+01333,train,1,"[0,1,2,3]",ID_verificado
+01334,validation,1,"[0,1,2,3]",ID_verificado
+01335,test,1,"[0,1,2,3]",ID_verificado
+01336,train,1,"[0,1,2,3]",ID_verificado
+01337,validation,1,"[0,1,2,3]",ID_verificado
+01338,train,1,"[0,1,2,3]",ID_verificado
+01339,train,1,"[0,1,2,3]",ID_verificado
+01340,train,1,"[0,1,2,3]",ID_verificado
+01341,train,1,"[0,1,2,3]",ID_verificado
+01342,train,1,"[0,1,2,3]",ID_verificado
+01343,validation,1,"[0,1,2,3]",ID_verificado
+01344,test,1,"[0,1,2,3]",ID_verificado
+01345,train,1,"[0,1,2,3]",ID_verificado
+01346,train,1,"[0,1,2,3]",ID_verificado
+01347,train,1,"[0,1,2,3]",ID_verificado
+01348,train,1,"[0,1,2,3]",ID_verificado
+01349,train,1,"[0,1,2,3]",ID_verificado
+01350,test,1,"[0,2]",ID_verificado
+01351,train,1,"[0,1,2,3]",ID_verificado
+01352,validation,1,"[0,1,2,3]",ID_verificado
+01353,train,1,"[0,1,2,3]",ID_verificado
+01354,train,1,"[0,1,2,3]",ID_verificado
+01355,test,1,"[0,1,2,3]",ID_verificado
+01356,test,1,"[0,1,2,3]",ID_verificado
+01357,train,1,"[0,1,2,3]",ID_verificado
+01358,train,1,"[0,1,2,3]",ID_verificado
+01359,train,1,"[0,1,2,3]",ID_verificado
+01360,test,1,"[0,1,2,3]",ID_verificado
+01361,train,1,"[0,1,2,3]",ID_verificado
+01362,test,1,"[0,1,2,3]",ID_verificado
+01363,train,1,"[0,1,2,3]",ID_verificado
+01364,validation,1,"[0,1,2,3]",ID_verificado
+01365,train,1,"[0,2,3]",ID_verificado
+01366,validation,1,"[0,1,2,3]",ID_verificado
+01367,test,1,"[0,1,2,3]",ID_verificado
+01368,train,1,"[0,1,2,3]",ID_verificado
+01369,train,1,"[0,1,2,3]",ID_verificado
+01370,validation,1,"[0,1,2,3]",ID_verificado
+01371,train,1,"[0,1,2,3]",ID_verificado
+01372,train,1,"[0,1,2,3]",ID_verificado
+01373,train,1,"[0,1,2,3]",ID_verificado
+01374,test,1,"[0,1,2,3]",ID_verificado
+01375,train,1,"[0,1,2,3]",ID_verificado
+01376,train,1,"[0,1,2,3]",ID_verificado
+01377,train,1,"[0,1,2,3]",ID_verificado
+01378,train,1,"[0,1,2,3]",ID_verificado
+01379,train,1,"[0,1,2,3]",ID_verificado
+01380,validation,1,"[0,1,2,3]",ID_verificado
+01381,train,1,"[0,1,2,3]",ID_verificado
+01382,validation,1,"[0,1,2,3]",ID_verificado
+01383,train,1,"[0,1,2,3]",ID_verificado
+01384,train,1,"[0,1,2,3]",ID_verificado
+01385,test,1,"[0,1,2,3]",ID_verificado
+01386,train,1,"[0,1,2,3]",ID_verificado
+01387,train,1,"[0,1,2,3]",ID_verificado
+01388,train,1,"[0,1,2,3]",ID_verificado
+01389,train,1,"[0,1,2,3]",ID_verificado
+01390,validation,1,"[0,1,2,3]",ID_verificado
+01391,train,1,"[0,1,2,3]",ID_verificado
+01392,test,1,"[0,1,2,3]",ID_verificado
+01393,validation,1,"[0,1,2,3]",ID_verificado
+01394,train,1,"[0,1,2,3]",ID_verificado
+01395,test,1,"[0,2,3]",ID_verificado
+01396,train,1,"[0,1,2,3]",ID_verificado
+01397,train,1,"[0,1,2,3]",ID_verificado
+01398,train,1,"[0,1,2,3]",ID_verificado
+01399,train,1,"[0,1,2,3]",ID_verificado
+01400,train,1,"[0,1,2,3]",ID_verificado
+01401,train,1,"[0,1,2,3]",ID_verificado
+01402,train,1,"[0,1,2,3]",ID_verificado
+01403,train,1,"[0,1,2,3]",ID_verificado
+01404,train,1,"[0,1,2,3]",ID_verificado
+01405,validation,1,"[0,1,2,3]",ID_verificado
+01406,train,1,"[0,1,2,3]",ID_verificado
+01407,train,1,"[0,1,2,3]",ID_verificado
+01408,train,1,"[0,1,2,3]",ID_verificado
+01409,validation,1,"[0,1,2,3]",ID_verificado
+01410,train,1,"[0,1,2,3]",ID_verificado
+01411,test,1,"[0,1,2,3]",ID_verificado
+01412,validation,1,"[0,1,2,3]",ID_verificado
+01413,train,1,"[0,1,2,3]",ID_verificado
+01414,train,1,"[0,1,2,3]",ID_verificado
+01415,train,1,"[0,1,2,3]",ID_verificado
+01416,train,1,"[0,1,2,3]",ID_verificado
+01417,train,1,"[0,1,2,3]",ID_verificado
+01418,train,1,"[0,1,2,3]",ID_verificado
+01419,train,1,"[0,1,2,3]",ID_verificado
+01420,train,1,"[0,1,2,3]",ID_verificado
+01421,train,1,"[0,1,2,3]",ID_verificado
+01422,train,1,"[0,1,2,3]",ID_verificado
+01423,train,1,"[0,1,2,3]",ID_verificado
+01424,test,1,"[0,1,2,3]",ID_verificado
+01425,train,1,"[0,1,2,3]",ID_verificado
+01426,test,1,"[0,1,2,3]",ID_verificado
+01427,train,1,"[0,1,2,3]",ID_verificado
+01428,train,1,"[0,1,2,3]",ID_verificado
+01429,train,1,"[0,1,2,3]",ID_verificado
+01430,train,1,"[0,1,2,3]",ID_verificado
+01431,train,1,"[0,1,2,3]",ID_verificado
+01432,train,1,"[0,1,2,3]",ID_verificado
+01433,test,1,"[0,1,2]",ID_verificado
+01434,train,1,"[0,1,2]",ID_verificado
+01435,train,1,"[0,1,2]",ID_verificado
+01436,validation,1,"[0,1,2]",ID_verificado
+01437,train,1,"[0,1,2]",ID_verificado
+01438,test,1,"[0,1,2,3]",ID_verificado
+01439,train,1,"[0,1,2]",ID_verificado
+01440,train,1,"[0,1,2]",ID_verificado
+01441,train,1,"[0,1,2,3]",ID_verificado
+01442,validation,1,"[0,1,2,3]",ID_verificado
+01443,train,1,"[0,1,2,3]",ID_verificado
+01444,validation,1,"[0,1,2,3]",ID_verificado
+01445,train,1,"[0,1,2,3]",ID_verificado
+01446,train,1,"[0,1,2,3]",ID_verificado
+01447,train,1,"[0,1,2,3]",ID_verificado
+01448,train,1,"[0,1,2,3]",ID_verificado
+01449,train,1,"[0,1,2,3]",ID_verificado
+01450,test,1,"[0,1,2,3]",ID_verificado
+01451,train,1,"[0,1,2,3]",ID_verificado
+01452,train,1,"[0,1,2,3]",ID_verificado
+01453,validation,1,"[0,1,2,3]",ID_verificado
+01454,train,1,"[0,1,2,3]",ID_verificado
+01455,test,1,"[0,1,2,3]",ID_verificado
+01456,train,1,"[0,1,2,3]",ID_verificado
+01457,train,1,"[0,1,2,3]",ID_verificado
+01458,train,1,"[0,1,2,3]",ID_verificado
+01459,train,1,"[0,1,2,3]",ID_verificado
+01460,train,1,"[0,1,2,3]",ID_verificado
+01461,train,1,"[0,1,2,3]",ID_verificado
+01462,train,1,"[0,1,2,3]",ID_verificado
+01463,validation,1,"[0,1,2,3]",ID_verificado
+01464,train,1,"[0,1,2,3]",ID_verificado
+01465,validation,1,"[0,1,2,3]",ID_verificado
+01466,train,1,"[0,1,2,3]",ID_verificado
+01467,train,1,"[0,1,2,3]",ID_verificado
+01468,train,1,"[0,1,2,3]",ID_verificado
+01469,train,1,"[0,1,2,3]",ID_verificado
+01470,train,1,"[0,1,2,3]",ID_verificado
+01471,validation,1,"[0,1,2,3]",ID_verificado
+01472,validation,1,"[0,1,2,3]",ID_verificado
+01473,train,1,"[0,1,2,3]",ID_verificado
+01474,train,1,"[0,1,2,3]",ID_verificado
+01475,validation,1,"[0,1,2,3]",ID_verificado
+01476,validation,1,"[0,1,2,3]",ID_verificado
+01477,train,1,"[0,1,2]",ID_verificado
+01478,test,1,"[0,1,2,3]",ID_verificado
+01479,train,1,"[0,1,2,3]",ID_verificado
+01480,test,1,"[0,1,2]",ID_verificado
+01481,test,1,"[0,1,2,3]",ID_verificado
+01482,train,1,"[0,1,2,3]",ID_verificado
+01483,train,1,"[0,1,2]",ID_verificado
+01484,train,1,"[0,1,2]",ID_verificado
+01485,train,1,"[0,1,2,3]",ID_verificado
+01486,train,1,"[0,1,2]",ID_verificado
+01487,train,1,"[0,1,2,3]",ID_verificado
+01488,test,1,"[0,1,2,3]",ID_verificado
+01489,train,1,"[0,1,2,3]",ID_verificado
+01490,train,1,"[0,1,2,3]",ID_verificado
+01491,train,1,"[0,1,2]",ID_verificado
+01492,train,1,"[0,1,2,3]",ID_verificado
+01493,validation,1,"[0,1,2,3]",ID_verificado
+01494,train,1,"[0,1,2]",ID_verificado
+01495,validation,1,"[0,1,2,3]",ID_verificado
+01496,test,1,"[0,1,2,3]",ID_verificado
+01497,train,1,"[0,1,2,3]",ID_verificado
+01498,train,1,"[0,1,2,3]",ID_verificado
+01499,train,1,"[0,1,2]",ID_verificado
+01500,validation,1,"[0,1,2,3]",ID_verificado
+01501,train,1,"[0,1,2,3]",ID_verificado
+01502,train,1,"[0,1,2]",ID_verificado
+01503,train,1,"[0,1,2,3]",ID_verificado
+01504,train,1,"[0,1,2,3]",ID_verificado
+01505,validation,1,"[0,1,2,3]",ID_verificado
+01506,train,1,"[0,1,2,3]",ID_verificado
+01507,test,1,"[0,1,2,3]",ID_verificado
+01508,train,1,"[0,1,2,3]",ID_verificado
+01509,validation,1,"[0,1,2]",ID_verificado
+01510,test,1,"[0,1,2]",ID_verificado
+01511,train,1,"[0,1,2]",ID_verificado
+01512,train,1,"[0,1,2,3]",ID_verificado
+01513,train,1,"[0,1,2,3]",ID_verificado
+01514,validation,1,"[0,1,2,3]",ID_verificado
+01515,train,1,"[0,1,2]",ID_verificado
+01516,test,1,"[0,1,2,3]",ID_verificado
+01517,train,1,"[0,1,2]",ID_verificado
+01518,train,1,"[0,1,2,3]",ID_verificado
+01519,validation,1,"[0,1,2,3]",ID_verificado
+01520,train,1,"[0,1,2,3]",ID_verificado
+01521,train,1,"[0,1,2,3]",ID_verificado
+01522,test,1,"[0,1,2,3]",ID_verificado
+01523,test,1,"[0,1,2,3]",ID_verificado
+01524,train,1,"[0,1,2]",ID_verificado
+01525,train,1,"[0,1,2,3]",ID_verificado
+01526,train,1,"[0,1,2]",ID_verificado
+01527,test,1,"[0,1,2,3]",ID_verificado
+01528,train,1,"[0,1,2,3]",ID_verificado
+01529,train,1,"[0,1,2]",ID_verificado
+01530,train,1,"[0,1,2,3]",ID_verificado
+01531,train,1,"[0,1,3]",ID_verificado
+01532,test,1,"[0,1,2,3]",ID_verificado
+01533,train,1,"[0,1,2,3]",ID_verificado
+01534,test,1,"[0,1,2]",ID_verificado
+01535,train,1,"[0,1,2]",ID_verificado
+01536,train,1,"[0,1,2,3]",ID_verificado
+01537,train,1,"[0,1,2,3]",ID_verificado
+01610,test,1,"[0,2,3]",ID_verificado
+01657,test,1,"[0,1,2,3]",ID_verificado
+01658,train,1,"[0,1,2,3]",ID_verificado
+01659,train,1,"[0,1,2,3]",ID_verificado
+01660,test,1,"[0,1,2,3]",ID_verificado
+01661,test,1,"[0,1,2,3]",ID_verificado
+01662,train,1,"[0,1,2,3]",ID_verificado
+01663,test,1,"[0,1,2,3]",ID_verificado
+01664,validation,1,"[0,1,2,3]",ID_verificado
+01665,validation,1,"[0,1,2,3]",ID_verificado
+01666,test,1,"[0,1,2]",ID_verificado
