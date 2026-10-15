@@ -11,7 +11,7 @@ identificador de paciente dentro de una única partición.
 
 Se utilizó el manifiesto consolidado:
 
-`resultados/manifest.csv`
+[`resultados/manifest.csv`](../resultados/manifest.csv)
 
 Se incluyeron los estudios que cumplían simultáneamente:
 
@@ -73,12 +73,12 @@ representen identidades clínicas verificadas de forma independiente.
 
 ## 7. Archivos de evidencia
 
-- `split.csv`: asignación de grupos.
-- `manifest_con_split.csv`: manifiesto con partición asignada.
-- `resumen_conteos_particion.csv`: conteos de archivos y estudios.
-- `resumen_etiquetas_particion.csv`: combinaciones de etiquetas.
-- `reporte_intersecciones_particiones.csv`: intersecciones por pareja.
-- `reporte_verificacion_no_solapamiento.csv`: resultado global.
+- [`split.csv`](../resultados/particion/split.csv): asignación de grupos.
+- [`manifest_con_split.csv`](../resultados/particion/manifest_con_split.csv): manifiesto con partición asignada.
+- [`resumen_conteos_particion.csv`](../resultados/particion/resumen_conteos_particion.csv): conteos de archivos y estudios.
+- [`resumen_etiquetas_particion.csv`](../resultados/particion/resumen_etiquetas_particion.csv): combinaciones de etiquetas.
+- [`reporte_intersecciones_particiones.csv`](../resultados/particion/reporte_intersecciones_particiones.csv): intersecciones por pareja.
+- [`reporte_verificacion_no_solapamiento.csv`](../resultados/particion/reporte_verificacion_no_solapamiento.csv): resultado global.
 
 ## 8. Protección del conjunto de prueba
 

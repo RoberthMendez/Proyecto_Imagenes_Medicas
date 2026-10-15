@@ -5,7 +5,7 @@ import nibabel as nib
 import numpy as np
 import pandas as pd
 
-from codigo.segmentacion.dataset_2d import Dataset2D
+from codigo.segmentacion.conjunto_cortes_2d import Dataset2D
 
 
 PROYECTO = Path(__file__).resolve().parents[2]

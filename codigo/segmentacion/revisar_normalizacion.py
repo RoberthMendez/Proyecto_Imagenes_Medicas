@@ -4,8 +4,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from codigo.segmentacion.preparar_datos import preparar_estudio
-from codigo.segmentacion.dataset_2d import Dataset2D
+from codigo.segmentacion.preparar_imagenes import preparar_estudio
+from codigo.segmentacion.conjunto_cortes_2d import Dataset2D
 
 
 PROYECTO = Path(__file__).resolve().parents[2]

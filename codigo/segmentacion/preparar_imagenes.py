@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 
-from codigo.segmentacion.cargar_datos import cargar_estudio
+from codigo.segmentacion.cargar_imagenes import cargar_estudio
 
 
 def normalizar_modalidad(imagen: np.ndarray) -> np.ndarray:

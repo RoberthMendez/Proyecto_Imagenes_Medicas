@@ -11,9 +11,9 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader
 
-from codigo.segmentacion.dataset_2d import Dataset2D, LotesPorEstudio
-from codigo.segmentacion.modelo_unet import UNet2D
-from codigo.segmentacion.cargar_datos import DATASET, buscar_archivo
+from codigo.segmentacion.conjunto_cortes_2d import Dataset2D, LotesPorEstudio
+from codigo.segmentacion.red_unet import UNet2D
+from codigo.segmentacion.cargar_imagenes import DATASET, buscar_archivo
 
 
 # ------------------------------------------------------------
@@ -28,9 +28,9 @@ BASE = 16
 
 PROYECTO = Path(__file__).resolve().parents[2]
 MANIFEST = (
-    PROYECTO / "resultados" / "linea_base" / "manifest_piloto_30.csv"
+    PROYECTO / "resultados" / "modelo_piloto" / "manifest_piloto_30.csv"
 )
-SALIDA = PROYECTO / "resultados" / "linea_base"
+SALIDA = PROYECTO / "resultados" / "modelo_piloto"
 PREDICCIONES = SALIDA / "predicciones_30pct"
 FIGURAS = SALIDA / "ejemplos_validacion"
 

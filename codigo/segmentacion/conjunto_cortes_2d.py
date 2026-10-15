@@ -8,8 +8,8 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset, Sampler
 
-from codigo.segmentacion.cargar_datos import DATASET, buscar_archivo
-from codigo.segmentacion.preparar_datos import preparar_estudio
+from codigo.segmentacion.cargar_imagenes import DATASET, buscar_archivo
+from codigo.segmentacion.preparar_imagenes import preparar_estudio
 
 
 PROYECTO = Path(__file__).resolve().parents[2]
