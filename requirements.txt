@@ -1,0 +1,6 @@
+# Dependencias directas del proyecto (versiones sin fijar).
+numpy
+pandas
+nibabel
+matplotlib
+torch
