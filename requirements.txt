@@ -1,6 +1,9 @@
 # Dependencias directas del proyecto (versiones sin fijar).
+# El entorno exacto usado en los resultados finales está en
+# requirements-congelado.txt.
 numpy
 pandas
 nibabel
 matplotlib
+scipy
 torch
