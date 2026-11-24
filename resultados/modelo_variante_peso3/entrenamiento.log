@@ -1,0 +1,531 @@
+Dataset train: 270 estudios, 41850 cortes indexados.
+Dataset validation: 56 estudios, 8680 cortes indexados.
+
+INICIO DE LA VARIANTE
+{
+  "run_id": "variante_peso3_30pct_2epocas",
+  "linea_base": "piloto_30pct_2epocas",
+  "cambio_principal": "peso de la clase 1 en la Cross-Entropy",
+  "peso_clase_1": 3.0,
+  "pesos_cross_entropy": [
+    1.0,
+    3.0,
+    1.0,
+    1.0
+  ],
+  "semilla": 42,
+  "epocas": 2,
+  "batch_size": 2,
+  "tasa_aprendizaje": 0.0001,
+  "hilos_cpu": 4,
+  "dispositivo": "cpu",
+  "modalidades": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "fraccion_pacientes": 0.3,
+  "estudios_entrenamiento": 270,
+  "estudios_validacion": 56,
+  "cortes_entrenamiento": 41850,
+  "cortes_validacion": 8680,
+  "modelo": "UNet2D",
+  "base": 16,
+  "perdida": "CrossEntropy con peso en la clase 1 + Dice suave para clases 1, 2 y 3",
+  "normalizacion": "Por modalidad y estudio: media y desviación estándar de vóxeles no nulos; ceros preservados.",
+  "evaluacion": "Dice por clase y estudio completo, acumulando cortes axiales.",
+  "test": "Reservado; no utilizado.",
+  "checkpoint_cada_lotes": 1000,
+  "version_python": "3.13.18",
+  "version_torch": "2.14.1+cpu"
+}
+Época 1/2 | Lote 100/21060 | Pérdida media: 2.43689 | 2.25 s/lote | Faltan ~26.2 h
+Época 1/2 | Lote 200/21060 | Pérdida media: 2.31937 | 2.23 s/lote | Faltan ~26.0 h
+Época 1/2 | Lote 300/21060 | Pérdida media: 2.22175 | 2.22 s/lote | Faltan ~25.8 h
+Época 1/2 | Lote 400/21060 | Pérdida media: 2.15223 | 2.22 s/lote | Faltan ~25.8 h
+Época 1/2 | Lote 500/21060 | Pérdida media: 2.09812 | 2.05 s/lote | Faltan ~23.6 h
+Época 1/2 | Lote 600/21060 | Pérdida media: 2.04430 | 1.80 s/lote | Faltan ~20.8 h
+Época 1/2 | Lote 700/21060 | Pérdida media: 1.99395 | 1.79 s/lote | Faltan ~20.5 h
+Época 1/2 | Lote 800/21060 | Pérdida media: 1.94419 | 1.84 s/lote | Faltan ~21.2 h
+Época 1/2 | Lote 900/21060 | Pérdida media: 1.89863 | 1.89 s/lote | Faltan ~21.6 h
+Época 1/2 | Lote 1000/21060 | Pérdida media: 1.85481 | 1.92 s/lote | Faltan ~22.0 h
+Época 1/2 | Lote 1100/21060 | Pérdida media: 1.81574 | 1.95 s/lote | Faltan ~22.2 h
+Época 1/2 | Lote 1200/21060 | Pérdida media: 1.77846 | 1.97 s/lote | Faltan ~22.4 h
+Época 1/2 | Lote 1300/21060 | Pérdida media: 1.74168 | 1.99 s/lote | Faltan ~22.6 h
+Época 1/2 | Lote 1400/21060 | Pérdida media: 1.70795 | 2.01 s/lote | Faltan ~22.7 h
+Época 1/2 | Lote 1500/21060 | Pérdida media: 1.67588 | 2.02 s/lote | Faltan ~22.8 h
+Época 1/2 | Lote 1600/21060 | Pérdida media: 1.64513 | 2.03 s/lote | Faltan ~22.9 h
+Época 1/2 | Lote 1700/21060 | Pérdida media: 1.61654 | 2.04 s/lote | Faltan ~22.9 h
+Época 1/2 | Lote 1800/21060 | Pérdida media: 1.58902 | 2.05 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 1900/21060 | Pérdida media: 1.56390 | 2.06 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 2000/21060 | Pérdida media: 1.54039 | 2.07 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 2100/21060 | Pérdida media: 1.51681 | 2.07 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 2200/21060 | Pérdida media: 1.49282 | 2.08 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 2300/21060 | Pérdida media: 1.47152 | 2.08 s/lote | Faltan ~23.1 h
+Época 1/2 | Lote 2400/21060 | Pérdida media: 1.45004 | 2.09 s/lote | Faltan ~23.0 h
+Época 1/2 | Lote 2500/21060 | Pérdida media: 1.43027 | 2.09 s/lote | Faltan ~22.9 h
+Época 1/2 | Lote 2600/21060 | Pérdida media: 1.40943 | 2.08 s/lote | Faltan ~22.9 h
+Época 1/2 | Lote 2700/21060 | Pérdida media: 1.39085 | 2.08 s/lote | Faltan ~22.8 h
+Época 1/2 | Lote 2800/21060 | Pérdida media: 1.37261 | 2.08 s/lote | Faltan ~22.7 h
+Época 1/2 | Lote 2900/21060 | Pérdida media: 1.35567 | 2.07 s/lote | Faltan ~22.6 h
+Época 1/2 | Lote 3000/21060 | Pérdida media: 1.33842 | 2.07 s/lote | Faltan ~22.5 h
+Época 1/2 | Lote 3100/21060 | Pérdida media: 1.32155 | 2.07 s/lote | Faltan ~22.4 h
+Época 1/2 | Lote 3200/21060 | Pérdida media: 1.30715 | 2.07 s/lote | Faltan ~22.4 h
+Época 1/2 | Lote 3300/21060 | Pérdida media: 1.29311 | 2.07 s/lote | Faltan ~22.3 h
+Época 1/2 | Lote 3400/21060 | Pérdida media: 1.27808 | 2.07 s/lote | Faltan ~22.2 h
+Época 1/2 | Lote 3500/21060 | Pérdida media: 1.26372 | 2.06 s/lote | Faltan ~22.1 h
+Época 1/2 | Lote 3600/21060 | Pérdida media: 1.25306 | 2.06 s/lote | Faltan ~22.1 h
+Época 1/2 | Lote 3700/21060 | Pérdida media: 1.24148 | 2.06 s/lote | Faltan ~22.0 h
+Época 1/2 | Lote 3800/21060 | Pérdida media: 1.23244 | 2.06 s/lote | Faltan ~21.9 h
+Época 1/2 | Lote 3900/21060 | Pérdida media: 1.21822 | 2.06 s/lote | Faltan ~21.8 h
+Época 1/2 | Lote 4000/21060 | Pérdida media: 1.20770 | 2.06 s/lote | Faltan ~21.8 h
+Época 1/2 | Lote 4100/21060 | Pérdida media: 1.19698 | 2.06 s/lote | Faltan ~21.7 h
+Época 1/2 | Lote 4200/21060 | Pérdida media: 1.18704 | 2.05 s/lote | Faltan ~21.6 h
+Época 1/2 | Lote 4300/21060 | Pérdida media: 1.17761 | 2.05 s/lote | Faltan ~21.6 h
+Época 1/2 | Lote 4400/21060 | Pérdida media: 1.16687 | 2.05 s/lote | Faltan ~21.5 h
+Época 1/2 | Lote 4500/21060 | Pérdida media: 1.15655 | 2.05 s/lote | Faltan ~21.4 h
+Época 1/2 | Lote 4600/21060 | Pérdida media: 1.14719 | 2.05 s/lote | Faltan ~21.4 h
+Época 1/2 | Lote 4700/21060 | Pérdida media: 1.14198 | 2.05 s/lote | Faltan ~21.3 h
+Época 1/2 | Lote 4800/21060 | Pérdida media: 1.13566 | 2.05 s/lote | Faltan ~21.3 h
+Época 1/2 | Lote 4900/21060 | Pérdida media: 1.12503 | 2.05 s/lote | Faltan ~21.2 h
+Época 1/2 | Lote 5000/21060 | Pérdida media: 1.11494 | 2.05 s/lote | Faltan ~21.1 h
+Época 1/2 | Lote 5100/21060 | Pérdida media: 1.10991 | 2.05 s/lote | Faltan ~21.1 h
+Época 1/2 | Lote 5200/21060 | Pérdida media: 1.10131 | 2.05 s/lote | Faltan ~21.0 h
+Época 1/2 | Lote 5300/21060 | Pérdida media: 1.09382 | 2.05 s/lote | Faltan ~20.9 h
+Época 1/2 | Lote 5400/21060 | Pérdida media: 1.08574 | 2.05 s/lote | Faltan ~20.9 h
+Época 1/2 | Lote 5500/21060 | Pérdida media: 1.07953 | 2.05 s/lote | Faltan ~20.8 h
+Época 1/2 | Lote 5600/21060 | Pérdida media: 1.06984 | 2.05 s/lote | Faltan ~20.8 h
+Época 1/2 | Lote 5700/21060 | Pérdida media: 1.06559 | 2.05 s/lote | Faltan ~20.7 h
+Época 1/2 | Lote 5800/21060 | Pérdida media: 1.05673 | 2.04 s/lote | Faltan ~20.6 h
+Época 1/2 | Lote 5900/21060 | Pérdida media: 1.05161 | 2.04 s/lote | Faltan ~20.6 h
+Época 1/2 | Lote 6000/21060 | Pérdida media: 1.04489 | 2.04 s/lote | Faltan ~20.5 h
+Época 1/2 | Lote 6100/21060 | Pérdida media: 1.03928 | 2.04 s/lote | Faltan ~20.5 h
+Época 1/2 | Lote 6200/21060 | Pérdida media: 1.03236 | 2.04 s/lote | Faltan ~20.4 h
+Época 1/2 | Lote 6300/21060 | Pérdida media: 1.02909 | 2.04 s/lote | Faltan ~20.3 h
+Época 1/2 | Lote 6400/21060 | Pérdida media: 1.02507 | 2.04 s/lote | Faltan ~20.3 h
+Época 1/2 | Lote 6500/21060 | Pérdida media: 1.02116 | 2.04 s/lote | Faltan ~20.2 h
+Época 1/2 | Lote 6600/21060 | Pérdida media: 1.01331 | 2.04 s/lote | Faltan ~20.1 h
+Época 1/2 | Lote 6700/21060 | Pérdida media: 1.00566 | 2.04 s/lote | Faltan ~20.1 h
+Época 1/2 | Lote 6800/21060 | Pérdida media: 1.00077 | 2.04 s/lote | Faltan ~20.0 h
+Época 1/2 | Lote 6900/21060 | Pérdida media: 0.99801 | 2.04 s/lote | Faltan ~20.0 h
+Época 1/2 | Lote 7000/21060 | Pérdida media: 0.99306 | 2.04 s/lote | Faltan ~19.9 h
+Época 1/2 | Lote 7100/21060 | Pérdida media: 0.98780 | 2.04 s/lote | Faltan ~19.8 h
+Época 1/2 | Lote 7200/21060 | Pérdida media: 0.98411 | 2.04 s/lote | Faltan ~19.8 h
+Época 1/2 | Lote 7300/21060 | Pérdida media: 0.98201 | 2.04 s/lote | Faltan ~19.7 h
+Época 1/2 | Lote 7400/21060 | Pérdida media: 0.98018 | 2.04 s/lote | Faltan ~19.7 h
+Época 1/2 | Lote 7500/21060 | Pérdida media: 0.97548 | 2.04 s/lote | Faltan ~19.6 h
+Época 1/2 | Lote 7600/21060 | Pérdida media: 0.97228 | 2.04 s/lote | Faltan ~19.5 h
+Época 1/2 | Lote 7700/21060 | Pérdida media: 0.96755 | 2.04 s/lote | Faltan ~19.5 h
+Época 1/2 | Lote 7800/21060 | Pérdida media: 0.96368 | 2.04 s/lote | Faltan ~19.4 h
+Época 1/2 | Lote 7900/21060 | Pérdida media: 0.95930 | 2.04 s/lote | Faltan ~19.4 h
+Época 1/2 | Lote 8000/21060 | Pérdida media: 0.95534 | 2.04 s/lote | Faltan ~19.3 h
+Época 1/2 | Lote 8100/21060 | Pérdida media: 0.95027 | 2.04 s/lote | Faltan ~19.2 h
+Época 1/2 | Lote 8200/21060 | Pérdida media: 0.94648 | 2.04 s/lote | Faltan ~19.2 h
+Época 1/2 | Lote 8300/21060 | Pérdida media: 0.94179 | 2.04 s/lote | Faltan ~19.1 h
+Época 1/2 | Lote 8400/21060 | Pérdida media: 0.93876 | 2.03 s/lote | Faltan ~19.1 h
+Época 1/2 | Lote 8500/21060 | Pérdida media: 0.93664 | 2.03 s/lote | Faltan ~19.0 h
+Época 1/2 | Lote 8600/21060 | Pérdida media: 0.93354 | 2.03 s/lote | Faltan ~18.9 h
+Época 1/2 | Lote 8700/21060 | Pérdida media: 0.92980 | 2.03 s/lote | Faltan ~18.9 h
+Época 1/2 | Lote 8800/21060 | Pérdida media: 0.92776 | 2.03 s/lote | Faltan ~18.8 h
+Época 1/2 | Lote 8900/21060 | Pérdida media: 0.92664 | 2.03 s/lote | Faltan ~18.8 h
+Época 1/2 | Lote 9000/21060 | Pérdida media: 0.92452 | 2.03 s/lote | Faltan ~18.7 h
+Época 1/2 | Lote 9100/21060 | Pérdida media: 0.92109 | 2.03 s/lote | Faltan ~18.6 h
+Época 1/2 | Lote 9200/21060 | Pérdida media: 0.91650 | 2.03 s/lote | Faltan ~18.6 h
+Época 1/2 | Lote 9300/21060 | Pérdida media: 0.91473 | 2.03 s/lote | Faltan ~18.5 h
+Época 1/2 | Lote 9400/21060 | Pérdida media: 0.91080 | 2.03 s/lote | Faltan ~18.5 h
+Época 1/2 | Lote 9500/21060 | Pérdida media: 0.90850 | 2.03 s/lote | Faltan ~18.4 h
+Época 1/2 | Lote 9600/21060 | Pérdida media: 0.90563 | 2.03 s/lote | Faltan ~18.4 h
+Época 1/2 | Lote 9700/21060 | Pérdida media: 0.90314 | 2.03 s/lote | Faltan ~18.3 h
+Época 1/2 | Lote 9800/21060 | Pérdida media: 0.90133 | 2.03 s/lote | Faltan ~18.2 h
+Época 1/2 | Lote 9900/21060 | Pérdida media: 0.89905 | 2.03 s/lote | Faltan ~18.2 h
+Época 1/2 | Lote 10000/21060 | Pérdida media: 0.89764 | 2.03 s/lote | Faltan ~18.1 h
+Época 1/2 | Lote 10100/21060 | Pérdida media: 0.89573 | 2.03 s/lote | Faltan ~18.1 h
+Época 1/2 | Lote 10200/21060 | Pérdida media: 0.89292 | 2.03 s/lote | Faltan ~18.0 h
+Época 1/2 | Lote 10300/21060 | Pérdida media: 0.88922 | 2.03 s/lote | Faltan ~18.0 h
+Época 1/2 | Lote 10400/21060 | Pérdida media: 0.88686 | 2.03 s/lote | Faltan ~17.9 h
+Época 1/2 | Lote 10500/21060 | Pérdida media: 0.88314 | 2.03 s/lote | Faltan ~17.8 h
+Época 1/2 | Lote 10600/21060 | Pérdida media: 0.87993 | 2.03 s/lote | Faltan ~17.8 h
+Época 1/2 | Lote 10700/21060 | Pérdida media: 0.87705 | 2.03 s/lote | Faltan ~17.7 h
+Época 1/2 | Lote 10800/21060 | Pérdida media: 0.87460 | 2.03 s/lote | Faltan ~17.7 h
+Época 1/2 | Lote 10900/21060 | Pérdida media: 0.87195 | 2.03 s/lote | Faltan ~17.6 h
+Época 1/2 | Lote 11000/21060 | Pérdida media: 0.86810 | 2.03 s/lote | Faltan ~17.6 h
+Época 1/2 | Lote 11100/21060 | Pérdida media: 0.86529 | 2.03 s/lote | Faltan ~17.5 h
+Época 1/2 | Lote 11200/21060 | Pérdida media: 0.86386 | 2.03 s/lote | Faltan ~17.4 h
+Época 1/2 | Lote 11300/21060 | Pérdida media: 0.86252 | 2.03 s/lote | Faltan ~17.4 h
+Época 1/2 | Lote 11400/21060 | Pérdida media: 0.86007 | 2.03 s/lote | Faltan ~17.3 h
+Época 1/2 | Lote 11500/21060 | Pérdida media: 0.85778 | 2.03 s/lote | Faltan ~17.3 h
+Época 1/2 | Lote 11600/21060 | Pérdida media: 0.85653 | 2.03 s/lote | Faltan ~17.2 h
+Época 1/2 | Lote 11700/21060 | Pérdida media: 0.85538 | 2.03 s/lote | Faltan ~17.1 h
+Época 1/2 | Lote 11800/21060 | Pérdida media: 0.85292 | 2.03 s/lote | Faltan ~17.1 h
+Época 1/2 | Lote 11900/21060 | Pérdida media: 0.85153 | 2.03 s/lote | Faltan ~17.0 h
+Época 1/2 | Lote 12000/21060 | Pérdida media: 0.85103 | 2.03 s/lote | Faltan ~17.0 h
+Época 1/2 | Lote 12100/21060 | Pérdida media: 0.84906 | 2.03 s/lote | Faltan ~16.9 h
+Época 1/2 | Lote 12200/21060 | Pérdida media: 0.84795 | 2.03 s/lote | Faltan ~16.9 h
+Época 1/2 | Lote 12300/21060 | Pérdida media: 0.84641 | 2.03 s/lote | Faltan ~16.8 h
+Época 1/2 | Lote 12400/21060 | Pérdida media: 0.84465 | 2.03 s/lote | Faltan ~16.7 h
+Época 1/2 | Lote 12500/21060 | Pérdida media: 0.84378 | 2.03 s/lote | Faltan ~16.7 h
+Época 1/2 | Lote 12600/21060 | Pérdida media: 0.84349 | 2.03 s/lote | Faltan ~16.6 h
+Época 1/2 | Lote 12700/21060 | Pérdida media: 0.84200 | 2.03 s/lote | Faltan ~16.6 h
+Época 1/2 | Lote 12800/21060 | Pérdida media: 0.83930 | 2.03 s/lote | Faltan ~16.5 h
+Época 1/2 | Lote 12900/21060 | Pérdida media: 0.83703 | 2.03 s/lote | Faltan ~16.5 h
+Época 1/2 | Lote 13000/21060 | Pérdida media: 0.83635 | 2.03 s/lote | Faltan ~16.4 h
+Época 1/2 | Lote 13100/21060 | Pérdida media: 0.83626 | 2.03 s/lote | Faltan ~16.3 h
+Época 1/2 | Lote 13200/21060 | Pérdida media: 0.83449 | 2.03 s/lote | Faltan ~16.3 h
+Época 1/2 | Lote 13300/21060 | Pérdida media: 0.83416 | 2.03 s/lote | Faltan ~16.2 h
+Época 1/2 | Lote 13400/21060 | Pérdida media: 0.83322 | 2.03 s/lote | Faltan ~16.2 h
+Época 1/2 | Lote 13500/21060 | Pérdida media: 0.83176 | 2.03 s/lote | Faltan ~16.1 h
+Época 1/2 | Lote 13600/21060 | Pérdida media: 0.83138 | 2.03 s/lote | Faltan ~16.1 h
+Época 1/2 | Lote 13700/21060 | Pérdida media: 0.82892 | 2.03 s/lote | Faltan ~16.0 h
+Época 1/2 | Lote 13800/21060 | Pérdida media: 0.82700 | 2.03 s/lote | Faltan ~15.9 h
+Época 1/2 | Lote 13900/21060 | Pérdida media: 0.82697 | 2.03 s/lote | Faltan ~15.9 h
+Época 1/2 | Lote 14000/21060 | Pérdida media: 0.82606 | 2.03 s/lote | Faltan ~15.8 h
+Época 1/2 | Lote 14100/21060 | Pérdida media: 0.82493 | 2.03 s/lote | Faltan ~15.8 h
+Época 1/2 | Lote 14200/21060 | Pérdida media: 0.82445 | 2.03 s/lote | Faltan ~15.7 h
+Época 1/2 | Lote 14300/21060 | Pérdida media: 0.82256 | 2.03 s/lote | Faltan ~15.7 h
+Época 1/2 | Lote 14400/21060 | Pérdida media: 0.82171 | 2.03 s/lote | Faltan ~15.6 h
+Época 1/2 | Lote 14500/21060 | Pérdida media: 0.82034 | 2.03 s/lote | Faltan ~15.5 h
+Época 1/2 | Lote 14600/21060 | Pérdida media: 0.81816 | 2.03 s/lote | Faltan ~15.5 h
+Época 1/2 | Lote 14700/21060 | Pérdida media: 0.81719 | 2.03 s/lote | Faltan ~15.4 h
+Época 1/2 | Lote 14800/21060 | Pérdida media: 0.81654 | 2.03 s/lote | Faltan ~15.4 h
+Época 1/2 | Lote 14900/21060 | Pérdida media: 0.81471 | 2.03 s/lote | Faltan ~15.3 h
+Época 1/2 | Lote 15000/21060 | Pérdida media: 0.81349 | 2.03 s/lote | Faltan ~15.3 h
+Época 1/2 | Lote 15100/21060 | Pérdida media: 0.81139 | 2.03 s/lote | Faltan ~15.2 h
+Época 1/2 | Lote 15200/21060 | Pérdida media: 0.81096 | 2.03 s/lote | Faltan ~15.1 h
+Época 1/2 | Lote 15300/21060 | Pérdida media: 0.81011 | 2.03 s/lote | Faltan ~15.1 h
+Época 1/2 | Lote 15400/21060 | Pérdida media: 0.80912 | 2.02 s/lote | Faltan ~15.0 h
+Época 1/2 | Lote 15500/21060 | Pérdida media: 0.80757 | 2.02 s/lote | Faltan ~15.0 h
+Época 1/2 | Lote 15600/21060 | Pérdida media: 0.80615 | 2.02 s/lote | Faltan ~14.9 h
+Época 1/2 | Lote 15700/21060 | Pérdida media: 0.80574 | 2.02 s/lote | Faltan ~14.8 h
+Época 1/2 | Lote 15800/21060 | Pérdida media: 0.80503 | 2.02 s/lote | Faltan ~14.8 h
+Época 1/2 | Lote 15900/21060 | Pérdida media: 0.80538 | 2.01 s/lote | Faltan ~14.6 h
+Época 1/2 | Lote 16000/21060 | Pérdida media: 0.80488 | 2.00 s/lote | Faltan ~14.5 h
+Época 1/2 | Lote 16100/21060 | Pérdida media: 0.80429 | 1.99 s/lote | Faltan ~14.4 h
+Época 1/2 | Lote 16200/21060 | Pérdida media: 0.80461 | 1.98 s/lote | Faltan ~14.2 h
+Época 1/2 | Lote 16300/21060 | Pérdida media: 0.80376 | 1.97 s/lote | Faltan ~14.1 h
+Época 1/2 | Lote 16400/21060 | Pérdida media: 0.80295 | 1.96 s/lote | Faltan ~14.0 h
+Época 1/2 | Lote 16500/21060 | Pérdida media: 0.80260 | 1.95 s/lote | Faltan ~13.9 h
+Época 1/2 | Lote 16600/21060 | Pérdida media: 0.80146 | 1.94 s/lote | Faltan ~13.7 h
+Época 1/2 | Lote 16700/21060 | Pérdida media: 0.80035 | 1.93 s/lote | Faltan ~13.6 h
+Época 1/2 | Lote 16800/21060 | Pérdida media: 0.80061 | 1.92 s/lote | Faltan ~13.5 h
+Época 1/2 | Lote 16900/21060 | Pérdida media: 0.79969 | 1.91 s/lote | Faltan ~13.4 h
+Época 1/2 | Lote 17000/21060 | Pérdida media: 0.79776 | 1.90 s/lote | Faltan ~13.2 h
+Época 1/2 | Lote 17100/21060 | Pérdida media: 0.79752 | 1.89 s/lote | Faltan ~13.1 h
+Época 1/2 | Lote 17200/21060 | Pérdida media: 0.79659 | 1.88 s/lote | Faltan ~13.0 h
+Época 1/2 | Lote 17300/21060 | Pérdida media: 0.79576 | 1.87 s/lote | Faltan ~12.9 h
+Época 1/2 | Lote 17400/21060 | Pérdida media: 0.79490 | 1.86 s/lote | Faltan ~12.8 h
+Época 1/2 | Lote 17500/21060 | Pérdida media: 0.79483 | 1.85 s/lote | Faltan ~12.7 h
+Época 1/2 | Lote 17600/21060 | Pérdida media: 0.79451 | 1.84 s/lote | Faltan ~12.6 h
+Época 1/2 | Lote 17700/21060 | Pérdida media: 0.79369 | 1.84 s/lote | Faltan ~12.5 h
+Época 1/2 | Lote 17800/21060 | Pérdida media: 0.79426 | 1.83 s/lote | Faltan ~12.3 h
+Época 1/2 | Lote 17900/21060 | Pérdida media: 0.79357 | 1.82 s/lote | Faltan ~12.2 h
+Época 1/2 | Lote 18000/21060 | Pérdida media: 0.79217 | 1.81 s/lote | Faltan ~12.1 h
+Época 1/2 | Lote 18100/21060 | Pérdida media: 0.79124 | 1.80 s/lote | Faltan ~12.0 h
+Época 1/2 | Lote 18200/21060 | Pérdida media: 0.79113 | 1.79 s/lote | Faltan ~11.9 h
+Época 1/2 | Lote 18300/21060 | Pérdida media: 0.79037 | 1.79 s/lote | Faltan ~11.8 h
+Época 1/2 | Lote 18400/21060 | Pérdida media: 0.78902 | 1.78 s/lote | Faltan ~11.7 h
+Época 1/2 | Lote 18500/21060 | Pérdida media: 0.78800 | 1.77 s/lote | Faltan ~11.6 h
+Época 1/2 | Lote 18600/21060 | Pérdida media: 0.78621 | 1.76 s/lote | Faltan ~11.5 h
+Época 1/2 | Lote 18700/21060 | Pérdida media: 0.78503 | 1.75 s/lote | Faltan ~11.4 h
+Época 1/2 | Lote 18800/21060 | Pérdida media: 0.78429 | 1.75 s/lote | Faltan ~11.3 h
+Época 1/2 | Lote 18900/21060 | Pérdida media: 0.78421 | 1.74 s/lote | Faltan ~11.2 h
+Época 1/2 | Lote 19000/21060 | Pérdida media: 0.78276 | 1.73 s/lote | Faltan ~11.1 h
+Época 1/2 | Lote 19100/21060 | Pérdida media: 0.78189 | 1.72 s/lote | Faltan ~11.0 h
+Época 1/2 | Lote 19200/21060 | Pérdida media: 0.78138 | 1.72 s/lote | Faltan ~10.9 h
+Época 1/2 | Lote 19300/21060 | Pérdida media: 0.78112 | 1.71 s/lote | Faltan ~10.8 h
+Época 1/2 | Lote 19400/21060 | Pérdida media: 0.78012 | 1.70 s/lote | Faltan ~10.7 h
+Época 1/2 | Lote 19500/21060 | Pérdida media: 0.77937 | 1.70 s/lote | Faltan ~10.7 h
+Época 1/2 | Lote 19600/21060 | Pérdida media: 0.77811 | 1.69 s/lote | Faltan ~10.6 h
+Época 1/2 | Lote 19700/21060 | Pérdida media: 0.77708 | 1.68 s/lote | Faltan ~10.5 h
+Época 1/2 | Lote 19800/21060 | Pérdida media: 0.77609 | 1.67 s/lote | Faltan ~10.4 h
+Época 1/2 | Lote 19900/21060 | Pérdida media: 0.77516 | 1.67 s/lote | Faltan ~10.3 h
+Época 1/2 | Lote 20000/21060 | Pérdida media: 0.77387 | 1.66 s/lote | Faltan ~10.2 h
+Época 1/2 | Lote 20100/21060 | Pérdida media: 0.77390 | 1.65 s/lote | Faltan ~10.1 h
+Época 1/2 | Lote 20200/21060 | Pérdida media: 0.77335 | 1.65 s/lote | Faltan ~10.0 h
+Época 1/2 | Lote 20300/21060 | Pérdida media: 0.77335 | 1.64 s/lote | Faltan ~9.9 h
+Época 1/2 | Lote 20400/21060 | Pérdida media: 0.77295 | 1.63 s/lote | Faltan ~9.9 h
+Época 1/2 | Lote 20500/21060 | Pérdida media: 0.77276 | 1.63 s/lote | Faltan ~9.8 h
+Época 1/2 | Lote 20600/21060 | Pérdida media: 0.77245 | 1.62 s/lote | Faltan ~9.7 h
+Época 1/2 | Lote 20700/21060 | Pérdida media: 0.77185 | 1.61 s/lote | Faltan ~9.6 h
+Época 1/2 | Lote 20800/21060 | Pérdida media: 0.77107 | 1.61 s/lote | Faltan ~9.5 h
+Época 1/2 | Lote 20900/21060 | Pérdida media: 0.76978 | 1.60 s/lote | Faltan ~9.4 h
+Época 1/2 | Lote 21000/21060 | Pérdida media: 0.76883 | 1.60 s/lote | Faltan ~9.4 h
+Época 1/2 completada | Pérdida=0.76823 | Tiempo=559.2 min | Checkpoint guardado.
+Época 2/2 | Lote 100/21060 | Pérdida media: 0.57175 | 0.79 s/lote | Faltan ~4.6 h
+Época 2/2 | Lote 200/21060 | Pérdida media: 0.53713 | 0.53 s/lote | Faltan ~3.1 h
+Época 2/2 | Lote 300/21060 | Pérdida media: 0.57517 | 0.45 s/lote | Faltan ~2.6 h
+Época 2/2 | Lote 400/21060 | Pérdida media: 0.61587 | 0.41 s/lote | Faltan ~2.4 h
+Época 2/2 | Lote 500/21060 | Pérdida media: 0.61628 | 0.39 s/lote | Faltan ~2.2 h
+Época 2/2 | Lote 600/21060 | Pérdida media: 0.62859 | 0.37 s/lote | Faltan ~2.1 h
+Época 2/2 | Lote 700/21060 | Pérdida media: 0.62233 | 0.36 s/lote | Faltan ~2.0 h
+Época 2/2 | Lote 800/21060 | Pérdida media: 0.61053 | 0.35 s/lote | Faltan ~2.0 h
+Época 2/2 | Lote 900/21060 | Pérdida media: 0.60058 | 0.34 s/lote | Faltan ~1.9 h
+Época 2/2 | Lote 1000/21060 | Pérdida media: 0.60771 | 0.34 s/lote | Faltan ~1.9 h
+Época 2/2 | Lote 1100/21060 | Pérdida media: 0.61426 | 0.36 s/lote | Faltan ~2.0 h
+Época 2/2 | Lote 1200/21060 | Pérdida media: 0.60921 | 0.35 s/lote | Faltan ~1.9 h
+Época 2/2 | Lote 1300/21060 | Pérdida media: 0.60251 | 0.35 s/lote | Faltan ~1.9 h
+Época 2/2 | Lote 1400/21060 | Pérdida media: 0.59616 | 0.34 s/lote | Faltan ~1.9 h
+Época 2/2 | Lote 1500/21060 | Pérdida media: 0.59972 | 0.34 s/lote | Faltan ~1.8 h
+Época 2/2 | Lote 1600/21060 | Pérdida media: 0.60576 | 0.34 s/lote | Faltan ~1.8 h
+Época 2/2 | Lote 1700/21060 | Pérdida media: 0.60777 | 0.33 s/lote | Faltan ~1.8 h
+Época 2/2 | Lote 1800/21060 | Pérdida media: 0.61187 | 0.33 s/lote | Faltan ~1.8 h
+Época 2/2 | Lote 1900/21060 | Pérdida media: 0.61456 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2000/21060 | Pérdida media: 0.61795 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2100/21060 | Pérdida media: 0.62170 | 0.33 s/lote | Faltan ~1.8 h
+Época 2/2 | Lote 2200/21060 | Pérdida media: 0.62730 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2300/21060 | Pérdida media: 0.62785 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2400/21060 | Pérdida media: 0.62166 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2500/21060 | Pérdida media: 0.61881 | 0.33 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2600/21060 | Pérdida media: 0.61966 | 0.32 s/lote | Faltan ~1.7 h
+Época 2/2 | Lote 2700/21060 | Pérdida media: 0.61467 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 2800/21060 | Pérdida media: 0.61773 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 2900/21060 | Pérdida media: 0.61644 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3000/21060 | Pérdida media: 0.61448 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3100/21060 | Pérdida media: 0.60920 | 0.33 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3200/21060 | Pérdida media: 0.60461 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3300/21060 | Pérdida media: 0.60434 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3400/21060 | Pérdida media: 0.60627 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3500/21060 | Pérdida media: 0.60569 | 0.32 s/lote | Faltan ~1.6 h
+Época 2/2 | Lote 3600/21060 | Pérdida media: 0.60422 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 3700/21060 | Pérdida media: 0.60328 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 3800/21060 | Pérdida media: 0.60777 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 3900/21060 | Pérdida media: 0.61298 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4000/21060 | Pérdida media: 0.61640 | 0.31 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4100/21060 | Pérdida media: 0.61641 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4200/21060 | Pérdida media: 0.61511 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4300/21060 | Pérdida media: 0.61538 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4400/21060 | Pérdida media: 0.62010 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4500/21060 | Pérdida media: 0.61676 | 0.32 s/lote | Faltan ~1.5 h
+Época 2/2 | Lote 4600/21060 | Pérdida media: 0.61686 | 0.32 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 4700/21060 | Pérdida media: 0.61605 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 4800/21060 | Pérdida media: 0.61711 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 4900/21060 | Pérdida media: 0.61983 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5000/21060 | Pérdida media: 0.62181 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5100/21060 | Pérdida media: 0.62217 | 0.32 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5200/21060 | Pérdida media: 0.62209 | 0.32 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5300/21060 | Pérdida media: 0.62108 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5400/21060 | Pérdida media: 0.62445 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5500/21060 | Pérdida media: 0.62502 | 0.31 s/lote | Faltan ~1.4 h
+Época 2/2 | Lote 5600/21060 | Pérdida media: 0.62439 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 5700/21060 | Pérdida media: 0.62385 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 5800/21060 | Pérdida media: 0.62700 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 5900/21060 | Pérdida media: 0.62946 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6000/21060 | Pérdida media: 0.62897 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6100/21060 | Pérdida media: 0.62916 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6200/21060 | Pérdida media: 0.62849 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6300/21060 | Pérdida media: 0.63051 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6400/21060 | Pérdida media: 0.63056 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6500/21060 | Pérdida media: 0.63190 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6600/21060 | Pérdida media: 0.63421 | 0.31 s/lote | Faltan ~1.3 h
+Época 2/2 | Lote 6700/21060 | Pérdida media: 0.63614 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 6800/21060 | Pérdida media: 0.63466 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 6900/21060 | Pérdida media: 0.63538 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7000/21060 | Pérdida media: 0.63440 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7100/21060 | Pérdida media: 0.63561 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7200/21060 | Pérdida media: 0.63418 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7300/21060 | Pérdida media: 0.63298 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7400/21060 | Pérdida media: 0.63462 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7500/21060 | Pérdida media: 0.63409 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7600/21060 | Pérdida media: 0.63393 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7700/21060 | Pérdida media: 0.63397 | 0.31 s/lote | Faltan ~1.2 h
+Época 2/2 | Lote 7800/21060 | Pérdida media: 0.63622 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 7900/21060 | Pérdida media: 0.63604 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8000/21060 | Pérdida media: 0.63754 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8100/21060 | Pérdida media: 0.63717 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8200/21060 | Pérdida media: 0.63749 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8300/21060 | Pérdida media: 0.63810 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8400/21060 | Pérdida media: 0.63960 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8500/21060 | Pérdida media: 0.63902 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8600/21060 | Pérdida media: 0.63663 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8700/21060 | Pérdida media: 0.63753 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8800/21060 | Pérdida media: 0.63679 | 0.31 s/lote | Faltan ~1.1 h
+Época 2/2 | Lote 8900/21060 | Pérdida media: 0.63555 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9000/21060 | Pérdida media: 0.63662 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9100/21060 | Pérdida media: 0.63739 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9200/21060 | Pérdida media: 0.63737 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9300/21060 | Pérdida media: 0.63848 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9400/21060 | Pérdida media: 0.63763 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9500/21060 | Pérdida media: 0.63785 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9600/21060 | Pérdida media: 0.63844 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9700/21060 | Pérdida media: 0.63812 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9800/21060 | Pérdida media: 0.63861 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 9900/21060 | Pérdida media: 0.63931 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 10000/21060 | Pérdida media: 0.63837 | 0.31 s/lote | Faltan ~1.0 h
+Época 2/2 | Lote 10100/21060 | Pérdida media: 0.63866 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10200/21060 | Pérdida media: 0.63765 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10300/21060 | Pérdida media: 0.63694 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10400/21060 | Pérdida media: 0.63529 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10500/21060 | Pérdida media: 0.63482 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10600/21060 | Pérdida media: 0.63528 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10700/21060 | Pérdida media: 0.63413 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10800/21060 | Pérdida media: 0.63489 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 10900/21060 | Pérdida media: 0.63391 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 11000/21060 | Pérdida media: 0.63275 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 11100/21060 | Pérdida media: 0.63277 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 11200/21060 | Pérdida media: 0.63369 | 0.31 s/lote | Faltan ~0.9 h
+Época 2/2 | Lote 11300/21060 | Pérdida media: 0.63353 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11400/21060 | Pérdida media: 0.63449 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11500/21060 | Pérdida media: 0.63515 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11600/21060 | Pérdida media: 0.63438 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11700/21060 | Pérdida media: 0.63446 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11800/21060 | Pérdida media: 0.63285 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 11900/21060 | Pérdida media: 0.63200 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 12000/21060 | Pérdida media: 0.63156 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 12100/21060 | Pérdida media: 0.63269 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 12200/21060 | Pérdida media: 0.63181 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 12300/21060 | Pérdida media: 0.63179 | 0.31 s/lote | Faltan ~0.8 h
+Época 2/2 | Lote 12400/21060 | Pérdida media: 0.63251 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 12500/21060 | Pérdida media: 0.63367 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 12600/21060 | Pérdida media: 0.63368 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 12700/21060 | Pérdida media: 0.63362 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 12800/21060 | Pérdida media: 0.63360 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 12900/21060 | Pérdida media: 0.63432 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13000/21060 | Pérdida media: 0.63499 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13100/21060 | Pérdida media: 0.63505 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13200/21060 | Pérdida media: 0.63466 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13300/21060 | Pérdida media: 0.63357 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13400/21060 | Pérdida media: 0.63397 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13500/21060 | Pérdida media: 0.63374 | 0.31 s/lote | Faltan ~0.7 h
+Época 2/2 | Lote 13600/21060 | Pérdida media: 0.63436 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 13700/21060 | Pérdida media: 0.63465 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 13800/21060 | Pérdida media: 0.63516 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 13900/21060 | Pérdida media: 0.63735 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14000/21060 | Pérdida media: 0.63792 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14100/21060 | Pérdida media: 0.63709 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14200/21060 | Pérdida media: 0.63713 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14300/21060 | Pérdida media: 0.63815 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14400/21060 | Pérdida media: 0.63777 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14500/21060 | Pérdida media: 0.63727 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14600/21060 | Pérdida media: 0.63797 | 0.31 s/lote | Faltan ~0.6 h
+Época 2/2 | Lote 14700/21060 | Pérdida media: 0.63848 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 14800/21060 | Pérdida media: 0.63891 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 14900/21060 | Pérdida media: 0.63895 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15000/21060 | Pérdida media: 0.63817 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15100/21060 | Pérdida media: 0.63869 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15200/21060 | Pérdida media: 0.63947 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15300/21060 | Pérdida media: 0.63961 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15400/21060 | Pérdida media: 0.63903 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15500/21060 | Pérdida media: 0.63860 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15600/21060 | Pérdida media: 0.63830 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15700/21060 | Pérdida media: 0.63912 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15800/21060 | Pérdida media: 0.63941 | 0.31 s/lote | Faltan ~0.5 h
+Época 2/2 | Lote 15900/21060 | Pérdida media: 0.63880 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16000/21060 | Pérdida media: 0.63895 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16100/21060 | Pérdida media: 0.63943 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16200/21060 | Pérdida media: 0.63982 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16300/21060 | Pérdida media: 0.63986 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16400/21060 | Pérdida media: 0.63935 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16500/21060 | Pérdida media: 0.63896 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16600/21060 | Pérdida media: 0.63860 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16700/21060 | Pérdida media: 0.63833 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16800/21060 | Pérdida media: 0.63768 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 16900/21060 | Pérdida media: 0.63707 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 17000/21060 | Pérdida media: 0.63733 | 0.31 s/lote | Faltan ~0.4 h
+Época 2/2 | Lote 17100/21060 | Pérdida media: 0.63677 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17200/21060 | Pérdida media: 0.63741 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17300/21060 | Pérdida media: 0.63754 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17400/21060 | Pérdida media: 0.63855 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17500/21060 | Pérdida media: 0.63800 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17600/21060 | Pérdida media: 0.63709 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17700/21060 | Pérdida media: 0.63672 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17800/21060 | Pérdida media: 0.63646 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 17900/21060 | Pérdida media: 0.63694 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 18000/21060 | Pérdida media: 0.63736 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 18100/21060 | Pérdida media: 0.63789 | 0.31 s/lote | Faltan ~0.3 h
+Época 2/2 | Lote 18200/21060 | Pérdida media: 0.63857 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18300/21060 | Pérdida media: 0.63893 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18400/21060 | Pérdida media: 0.63869 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18500/21060 | Pérdida media: 0.63985 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18600/21060 | Pérdida media: 0.64035 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18700/21060 | Pérdida media: 0.64020 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18800/21060 | Pérdida media: 0.64005 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 18900/21060 | Pérdida media: 0.64023 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 19000/21060 | Pérdida media: 0.64022 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 19100/21060 | Pérdida media: 0.63901 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 19200/21060 | Pérdida media: 0.63862 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 19300/21060 | Pérdida media: 0.63863 | 0.31 s/lote | Faltan ~0.2 h
+Época 2/2 | Lote 19400/21060 | Pérdida media: 0.63825 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 19500/21060 | Pérdida media: 0.63842 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 19600/21060 | Pérdida media: 0.63963 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 19700/21060 | Pérdida media: 0.63945 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 19800/21060 | Pérdida media: 0.63906 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 19900/21060 | Pérdida media: 0.63862 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20000/21060 | Pérdida media: 0.63928 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20100/21060 | Pérdida media: 0.63998 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20200/21060 | Pérdida media: 0.63987 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20300/21060 | Pérdida media: 0.63944 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20400/21060 | Pérdida media: 0.63972 | 0.31 s/lote | Faltan ~0.1 h
+Época 2/2 | Lote 20500/21060 | Pérdida media: 0.63948 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 | Lote 20600/21060 | Pérdida media: 0.63948 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 | Lote 20700/21060 | Pérdida media: 0.63998 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 | Lote 20800/21060 | Pérdida media: 0.63935 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 | Lote 20900/21060 | Pérdida media: 0.63872 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 | Lote 21000/21060 | Pérdida media: 0.63849 | 0.31 s/lote | Faltan ~0.0 h
+Época 2/2 completada | Pérdida=0.63811 | Tiempo=109.4 min | Checkpoint guardado.
+
+INICIANDO EVALUACIÓN EN VALIDACIÓN
+Figura guardada: BraTS-GLI-00021-000, corte z=63
+Validación 1/56: BraTS-GLI-00021-000 | Dice C1=0.0181 C2=0.4684 C3=0.1583
+Figura guardada: BraTS-GLI-00021-001, corte z=65
+Validación 2/56: BraTS-GLI-00021-001 | Dice C1=0.7064 C2=0.7739 C3=0.7103
+Figura guardada: BraTS-GLI-00103-000, corte z=74
+Validación 3/56: BraTS-GLI-00103-000 | Dice C1=0.7307 C2=0.9067 C3=0.8625
+Validación 4/56: BraTS-GLI-00117-000 | Dice C1=0.3776 C2=0.7578 C3=0.5420
+Validación 5/56: BraTS-GLI-00139-000 | Dice C1=0.1949 C2=0.7128 C3=0.6772
+Validación 6/56: BraTS-GLI-00152-000 | Dice C1=0.6620 C2=0.7212 C3=0.7356
+Validación 7/56: BraTS-GLI-00170-000 | Dice C1=0.0000 C2=0.8720 C3=0.7177
+Validación 8/56: BraTS-GLI-00178-000 | Dice C1=0.4272 C2=0.8271 C3=0.9148
+Validación 9/56: BraTS-GLI-00222-000 | Dice C1=0.0728 C2=0.8443 C3=0.7211
+Validación 10/56: BraTS-GLI-00239-000 | Dice C1=0.8833 C2=0.6149 C3=0.6373
+Validación 11/56: BraTS-GLI-00266-000 | Dice C1=0.8630 C2=0.8798 C3=0.9032
+Validación 12/56: BraTS-GLI-00281-000 | Dice C1=0.9510 C2=0.9538 C3=0.9066
+Validación 13/56: BraTS-GLI-00291-000 | Dice C1=0.4806 C2=0.7001 C3=0.7379
+Validación 14/56: BraTS-GLI-00304-000 | Dice C1=0.8038 C2=0.9259 C3=0.8705
+Validación 15/56: BraTS-GLI-00322-000 | Dice C1=0.9012 C2=0.8575 C3=0.8393
+Validación 16/56: BraTS-GLI-00352-000 | Dice C1=0.6557 C2=0.5745 C3=0.6389
+Validación 17/56: BraTS-GLI-00383-000 | Dice C1=0.9048 C2=0.9046 C3=0.9020
+Validación 18/56: BraTS-GLI-00500-000 | Dice C1=0.6123 C2=0.7687 C3=0.8142
+Validación 19/56: BraTS-GLI-00500-001 | Dice C1=0.4048 C2=0.9149 C3=0.8123
+Validación 20/56: BraTS-GLI-00580-000 | Dice C1=0.8166 C2=0.8505 C3=0.8775
+Validación 21/56: BraTS-GLI-00582-000 | Dice C1=0.0976 C2=0.7624 C3=0.8182
+Validación 22/56: BraTS-GLI-00594-000 | Dice C1=0.7766 C2=0.4429 C3=0.4073
+Validación 23/56: BraTS-GLI-00650-000 | Dice C1=0.2083 C2=0.8907 C3=0.7111
+Validación 24/56: BraTS-GLI-00675-000 | Dice C1=0.7573 C2=0.4766 C3=0.8976
+Validación 25/56: BraTS-GLI-00675-001 | Dice C1=0.0000 C2=0.0529 C3=0.0000
+Validación 26/56: BraTS-GLI-00682-000 | Dice C1=0.9197 C2=0.8088 C3=0.7693
+Validación 27/56: BraTS-GLI-00682-001 | Dice C1=0.5282 C2=0.9379 C3=0.9234
+Validación 28/56: BraTS-GLI-00742-000 | Dice C1=0.7958 C2=0.8239 C3=0.7218
+Validación 29/56: BraTS-GLI-00753-000 | Dice C1=0.0000 C2=0.2555 C3=0.4388
+Validación 30/56: BraTS-GLI-00753-001 | Dice C1=0.3615 C2=0.2822 C3=0.5477
+Validación 31/56: BraTS-GLI-00799-000 | Dice C1=0.8830 C2=0.8823 C3=0.9252
+Validación 32/56: BraTS-GLI-00840-000 | Dice C1=0.4510 C2=0.8663 C3=0.7281
+Validación 33/56: BraTS-GLI-01018-000 | Dice C1=0.9333 C2=0.9134 C3=0.8915
+Validación 34/56: BraTS-GLI-01037-000 | Dice C1=0.6111 C2=0.7023 C3=0.7884
+Validación 35/56: BraTS-GLI-01085-000 | Dice C1=0.7920 C2=0.9038 C3=0.9528
+Validación 36/56: BraTS-GLI-01090-000 | Dice C1=0.6659 C2=0.5141 C3=0.7028
+Validación 37/56: BraTS-GLI-01101-000 | Dice C1=0.7127 C2=0.9034 C3=0.9144
+Validación 38/56: BraTS-GLI-01129-000 | Dice C1=0.9176 C2=0.8873 C3=0.8612
+Validación 39/56: BraTS-GLI-01161-000 | Dice C1=0.8926 C2=0.6393 C3=0.9174
+Validación 40/56: BraTS-GLI-01162-000 | Dice C1=0.5673 C2=0.8176 C3=0.8836
+Validación 41/56: BraTS-GLI-01169-000 | Dice C1=0.4173 C2=0.6393 C3=0.0004
+Validación 42/56: BraTS-GLI-01189-000 | Dice C1=0.7920 C2=0.4512 C3=0.6344
+Validación 43/56: BraTS-GLI-01235-000 | Dice C1=0.6409 C2=0.9087 C3=0.8945
+Validación 44/56: BraTS-GLI-01296-000 | Dice C1=0.6135 C2=0.7884 C3=0.8927
+Validación 45/56: BraTS-GLI-01325-000 | Dice C1=0.1336 C2=0.5674 C3=0.7002
+Validación 46/56: BraTS-GLI-01332-000 | Dice C1=0.7881 C2=0.8608 C3=0.8725
+Validación 47/56: BraTS-GLI-01334-000 | Dice C1=0.2117 C2=0.8800 C3=0.8598
+Validación 48/56: BraTS-GLI-01337-000 | Dice C1=0.9267 C2=0.9147 C3=0.9150
+Validación 49/56: BraTS-GLI-01343-000 | Dice C1=0.9212 C2=0.9313 C3=0.9437
+Validación 50/56: BraTS-GLI-01380-000 | Dice C1=0.8613 C2=0.5767 C3=0.8884
+Validación 51/56: BraTS-GLI-01390-000 | Dice C1=0.9291 C2=0.8692 C3=0.9112
+Validación 52/56: BraTS-GLI-01412-000 | Dice C1=0.1997 C2=0.8186 C3=0.8435
+Validación 53/56: BraTS-GLI-01465-000 | Dice C1=0.7395 C2=0.9323 C3=0.9361
+Validación 54/56: BraTS-GLI-01472-000 | Dice C1=0.8029 C2=0.6406 C3=0.7406
+Validación 55/56: BraTS-GLI-01500-000 | Dice C1=0.3237 C2=0.5862 C3=0.0056
+Validación 56/56: BraTS-GLI-01514-000 | Dice C1=0.5968 C2=0.4980 C3=0.2318
+
+VARIANTE TERMINADA
+Checkpoint: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/modelo_variante_peso3/unet2d_variante_30pct.pth
+Métricas por estudio: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/modelo_variante_peso3/metricas_por_estudio.csv
+Resumen: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/modelo_variante_peso3/resumen_metricas.json
+Tiempo total: 11.31 horas

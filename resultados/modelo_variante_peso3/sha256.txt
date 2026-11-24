@@ -1,0 +1,1 @@
+5a3e2a023e1e8a10e8c438d4a4c1dcedbb109f162162b98eef6089ad78f6ae41  resultados/modelo_variante_peso3/unet2d_variante_30pct.pth
