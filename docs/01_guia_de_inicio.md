@@ -55,12 +55,24 @@ Si ya existe `.venv`, comprueba primero su Python. Para reconstruirlo, conserva 
 
 ## 3. Instala las dependencias que usa el código
 
-El archivo `requirements.txt` reúne NumPy, pandas, nibabel, Matplotlib y PyTorch para instalarlos en un solo paso. No fija versiones.
+El archivo `requirements.txt` reúne NumPy, pandas, nibabel, Matplotlib, SciPy y PyTorch para instalarlos en un solo paso. No fija versiones.
 
 ```powershell
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
+
+### Opción con el entorno exacto de los resultados finales
+
+`requirements-congelado.txt` fija las versiones exactas con las que se obtuvieron los resultados finales. La instalación validada usa [uv](https://docs.astral.sh/uv/) y crea el entorno desde cero:
+
+```bash
+uv venv .venv --python 3.13
+source .venv/bin/activate            # En PowerShell: .\.venv\Scripts\Activate.ps1
+uv pip install -r requirements-congelado.txt --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-best-match
+```
+
+Sin `--index-strategy unsafe-best-match` la instalación falla: por defecto, uv toma cada paquete solo del primer índice en el que lo encuentra.
 
 El piloto registrado usa CPU. Si vas a configurar CUDA, consulta el instalador oficial de PyTorch para tu versión de Windows, Python y tarjeta gráfica; el comando de este ejemplo no fija una combinación de CUDA.
 

@@ -34,7 +34,7 @@ Una **época** es una pasada por todos los cortes de entrenamiento. Un **lote** 
 
 La **semilla** fija las fuentes de aleatoriedad principales (`random`, NumPy y PyTorch) para que la selección y el orden de cortes puedan repetirse. No garantiza resultados idénticos entre versiones de bibliotecas o computadores.
 
-## Configuración real del piloto
+## Configuración real del piloto (línea base)
 
 | Parámetro | Valor guardado |
 |---|---:|
@@ -50,7 +50,7 @@ La **semilla** fija las fuentes de aleatoriedad principales (`random`, NumPy y P
 | Dispositivo | CPU |
 | Base U-Net | 16 canales |
 | Pérdida | Cross-Entropy + Dice suave de clases 1–3 |
-| Conjunto de prueba | Reservado, no utilizado |
+| Conjunto de prueba | No se usó para entrenar ni para elegir versión; se evaluó una vez después de congelar la línea base |
 
 El 30 % se refiere a los pacientes de las partes de entrenamiento y validación de la partición propia, seleccionados por separado. No es el 30 % de todo BraTS-GLI y no incluye prueba. Al seleccionar pacientes se conservan todos sus estudios.
 
@@ -73,7 +73,53 @@ El selector solo admite `--salida RUTA`; semilla y fracción están fijadas en e
 
 Ambos comandos tienen protecciones contra salidas existentes. La selección se detiene si ya existe `manifest_piloto_30.csv`; el entrenamiento se detiene si encuentra checkpoint, historial, métricas, configuración, resumen o archivos previos en las carpetas de predicciones y figuras. Esas salidas ya están presentes en esta copia. Para reproducir, primero conserva una copia de ellas y usa una copia de trabajo donde no ocupen las rutas esperadas. El entrenamiento completo es costoso y no se ejecutó al redactar esta documentación.
 
-El checkpoint final se llama `unet2d_piloto_30pct.pth` y guarda el `state_dict` del modelo y del optimizador, la época, configuración, semilla y pérdida de entrenamiento. No hay un script independiente de inferencia o carga del checkpoint.
+El checkpoint final se llama `unet2d_piloto_30pct.pth` y guarda el `state_dict` del modelo y del optimizador, la época, configuración, semilla y pérdida de entrenamiento. Este checkpoint es la **línea base congelada** (`piloto_30pct_2epocas`): está versionado en el repositorio y su SHA-256 es `1cd6de46fda9e5e2c60cff276c1dc294b567e846526fff9a7c5d8a227f0a9972`. Para volver a usarlo sobre una partición existe `inferir_particion.py` (ver más abajo).
+
+## Variante: peso 3 en la clase 1
+
+La clase 1 es la que la línea base segmenta peor en validación (Dice medio 0,6214). La variante prueba un único cambio para intentar mejorarla: en la Cross-Entropy, los errores en píxeles de clase 1 pesan 3 veces más que los de las otras clases. Los pesos por clase son `[1, 3, 1, 1]` para las clases 0, 1, 2 y 3. La parte de Dice suave no cambia.
+
+El valor 3 es **heurístico**: no se optimizó ni se probaron otros valores.
+
+Todo lo demás coincide con la línea base: el mismo manifiesto piloto (270 estudios de entrenamiento y 56 de validación), semilla 42, dos épocas, lote 2, tasa `0.0001`, Adam, U-Net con base 16, CPU y la misma función de evaluación. `codigo/entrenamiento/entrenar_variante.py` no copia ese código: importa `entrenar_piloto.py` y reutiliza sus constantes, su pérdida Dice, su evaluación y su resumen, de modo que la evaluación es idéntica.
+
+Diferencias de ejecución respecto a la línea base:
+
+| Aspecto | Línea base | Variante |
+|---|---|---|
+| Pesos de la Cross-Entropy | Sin pesos | `[1, 3, 1, 1]` |
+| Equipo | PC con Windows, Python 3.13.2 | Máquina virtual, Python 3.13.18 |
+| Hilos CPU | 14 | 4 |
+| Tiempo hasta terminar la segunda época (historial) | 15.209 s (≈ 4 h 13 min) | 40.111 s (≈ 11 h 8 min) |
+| Checkpoints intermedios | No | Cada 1.000 lotes, con reanudación |
+
+El equipo y el número de hilos pueden cambiar el resultado numérico aunque la semilla sea la misma; es una de las limitaciones de la comparación entre versiones (ver [resultados y evaluación](06_resultados_y_evaluacion.md#limitaciones-de-esta-comparación)).
+
+Para entrenarla, desde la raíz del repositorio:
+
+```powershell
+python -u -m codigo.entrenamiento.entrenar_variante
+```
+
+| Argumento | Valor por defecto | Qué hace |
+|---|---|---|
+| `--peso-clase-1` | `3.0` | Peso de la clase 1 en la Cross-Entropy. |
+| `--run-id` | `variante_peso3_30pct_2epocas` | Identificador guardado en la configuración y las métricas. |
+| `--salida` | `resultados/modelo_variante_peso3` | Carpeta de salida, relativa a la raíz. |
+| `--cada-lotes` | `1000` | Cada cuántos lotes se guarda `checkpoint_intermedio.pt`. |
+| `--epocas` | `2` | Número de épocas. |
+| `--hilos` | `4` | Hilos de CPU para PyTorch. |
+| `--max-estudios` | Ninguno | Limita los estudios de cada partición; solo para pruebas rápidas. |
+
+Si existe `checkpoint_intermedio.pt` en la carpeta de salida, el script **reanuda** desde la época y el lote guardados en él. Si no existe, se detiene cuando encuentra salidas anteriores, igual que la línea base. Las salidas son las mismas que las del piloto, en la carpeta indicada, con el checkpoint final `unet2d_variante_30pct.pth`. El script lee el manifiesto piloto y se cancela si contiene estudios de `test`.
+
+### Resultado y decisión
+
+En la comparación apareada en validación, la variante no mejoró la clase 1 y empeoró la clase 3, en Dice y en HD95. Por eso se congeló la línea base. Las cifras están en [resultados y evaluación](06_resultados_y_evaluacion.md#comparación-apareada-línea-base-frente-a-variante).
+
+## Inferencia con la versión congelada
+
+`codigo/entrenamiento/inferir_particion.py` carga un checkpoint y genera predicciones y métricas para una partición completa, sin entrenar ni ajustar nada. Reutiliza la función de evaluación de `entrenar_piloto.py`, así que los Dice de prueba se calculan igual que los de validación. Con él se evaluó la línea base congelada **una sola vez** en los 188 estudios de prueba. Los argumentos y el comando están en la [guía del código](07_guia_del_codigo.md#codigoentrenamientoinferir_particionpy) y en [reproducción completa](08_reproduccion_completa.md).
 
 ## Enlaces relacionados
 

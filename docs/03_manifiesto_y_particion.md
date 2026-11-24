@@ -52,12 +52,12 @@ La rutina no hace una partición estratificada por etiqueta: el resumen de etiqu
 |---|---:|---:|---:|
 | Entrenamiento | 793 | 878 | 69,99 % |
 | Validación | 170 | 185 | 15,00 % |
-| Prueba reservada | 170 | 188 | 15,00 % |
+| Prueba | 170 | 188 | 15,00 % |
 | Total | 1.133 | 1.251 | 100 % |
 
 La separación se hace por paciente porque dos estudios de una misma persona pueden compartir características anatómicas. Si uno quedara en entrenamiento y otro en validación, el modelo podría beneficiarse de esa similitud y la validación dejaría de representar pacientes separados.
 
-La prueba se conserva sin usar para entrenamiento, selección de parámetros ni evaluación repetida. Se necesita para una medición final una vez que las decisiones del modelo estén cerradas. El piloto solo incluye entrenamiento y validación.
+La prueba no se usó para entrenamiento, selección de parámetros ni evaluación repetida. El piloto y la variante solo incluyen entrenamiento y validación. Una vez congelada la línea base con validación, se evaluó una sola vez en los 188 estudios de prueba; los resultados están en [resultados y evaluación](06_resultados_y_evaluacion.md#resultados-finales-en-prueba).
 
 ## Archivos relacionados y dependencias
 
@@ -83,4 +83,4 @@ python -m codigo.particion.verificar_separacion_pacientes
 
 `crear_manifiesto` sobrescribe `resultados/manifest.csv`. `crear_particion` se detiene si ya existe cualquiera de `split.csv`, `manifest_con_split.csv` o `split_antes_label_summary.csv`; no los reemplaza. Los dos últimos scripts vuelven a escribir sus reportes. En la copia actual ya existen los archivos de partición, así que no ejecutes `crear_particion` sin respaldar y sacar antes esas salidas de las rutas esperadas.
 
-Para el detalle operativo paso a paso, consulta [reproducción completa](08_reproduccion_completa.md). La nota anterior de [metodología de partición](metodologia_particion.md) remite a esta explicación consolidada.
+Para el detalle operativo paso a paso, consulta [reproducción completa](08_reproduccion_completa.md).

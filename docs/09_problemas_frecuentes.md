@@ -70,7 +70,7 @@ Conserva una copia de los resultados y usa una copia de trabajo antes de mover l
 
 ## No sé cómo cargar el checkpoint
 
-El archivo `.pth` contiene un diccionario con la clave `modelo_state_dict`. No existe un módulo de inferencia independiente. La forma general de cargarlo es construir la misma U-Net y después cargar sus pesos:
+El archivo `.pth` contiene un diccionario con la clave `modelo_state_dict`. Para predecir sobre una partición completa usa `codigo.entrenamiento.inferir_particion` (ver [guía del código](07_guia_del_codigo.md#codigoentrenamientoinferir_particionpy)). Para cargarlo desde Python, construye la misma U-Net y después carga sus pesos:
 
 ```python
 import torch

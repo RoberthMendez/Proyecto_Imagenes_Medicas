@@ -18,7 +18,9 @@
 | **ET** | Abreviatura de la etiqueta 3 en BraTS 2023 Adult Glioma: tumor con realce de gadolinio. |
 | **FLAIR** | Secuencia MRI que reduce la señal del líquido cefalorraquídeo y ayuda a ver señal anormal alrededor del tumor. En el nombre del archivo aparece como `t2f`. |
 | **Fondo** | Vóxeles etiquetados como 0, fuera de las regiones tumorales de la máscara. |
-| **Inferencia** | Uso de un modelo ya entrenado para producir una predicción sobre datos nuevos. El repositorio no tiene un flujo general independiente de inferencia. |
+| **HD95** | Distancia de Hausdorff al percentil 95, en milímetros: indica qué tan lejos quedan los bordes de la predicción de los de la referencia. Menor es mejor. Es sensible a regiones predichas lejos del tumor. Queda indefinida si una de las dos máscaras está vacía. |
+| **Inferencia** | Uso de un modelo ya entrenado para producir una predicción sobre datos nuevos. En este repositorio la realiza `inferir_particion.py` sobre una partición del manifiesto. |
+| **Línea base** | La primera versión entrenada (`piloto_30pct_2epocas`), contra la que se compara la variante. Fue la versión congelada y evaluada en prueba. |
 | **Lote (batch)** | Grupo pequeño de cortes que la red procesa antes de actualizar sus pesos. El piloto usa 2 cortes por lote. |
 | **Máscara de referencia** | Volumen `seg` con las etiquetas esperadas, usado para enseñar y evaluar el modelo. |
 | **Manifiesto** | Tabla con una fila por estudio y sus metadatos de disponibilidad/calidad y partición. |
@@ -36,10 +38,13 @@
 | **Estudio (`sample_id`)** | Conjunto de las cuatro modalidades MRI y una máscara de un examen. Puede haber más de un estudio por paciente. |
 | **Tasa de aprendizaje** | Tamaño de los ajustes de pesos en cada actualización. En el piloto es 0,0001. |
 | **U-Net** | Arquitectura de red con un recorrido que reduce la imagen y otro que recupera su resolución, conectados para combinar contexto y detalle. |
+| **Variante** | Versión igual a la línea base salvo por el peso 3 para la clase 1 en la Cross-Entropy. Solo se evaluó en validación. |
+| **Versión congelada** | Modelo cuyos pesos ya no se cambian. Se elige solo con validación y después se evalúa una vez en prueba. |
 | **Validación** | Datos separados que permiten observar el comportamiento durante desarrollo. El piloto evalúa 56 estudios de esta partición. |
 | **Vóxel** | Unidad tridimensional de un volumen, equivalente 3D del píxel. Guarda una intensidad o etiqueta. |
-| **WT / TC** | Regiones compuestas usadas en ciertos reportes BraTS: tumor completo (WT) y núcleo tumoral (TC). Los scripts de este proyecto reportan las etiquetas 1–3 por separado y no calculan esas regiones compuestas. |
-| **Conjunto de prueba (`test`)** | Pacientes reservados para una evaluación final. En este proyecto no se usaron en el piloto. |
+| **WT / TC** | Regiones compuestas usadas en ciertos reportes BraTS: tumor completo (WT) y núcleo tumoral (TC). `calcular_metricas_3d.py` calcula el tumor completo (unión de las etiquetas 1, 2 y 3) además de cada etiqueta por separado; no calcula el núcleo tumoral. |
+| **Wilcoxon de rangos con signo** | Prueba estadística para datos apareados. Aquí compara, estudio por estudio, la línea base y la variante sin suponer que las diferencias siguen una distribución normal. |
+| **Conjunto de prueba (`test`)** | Pacientes reservados para una evaluación final. En este proyecto no se usaron para entrenar ni para elegir versión; se evaluaron una sola vez con la línea base congelada. |
 
 ## Enlaces relacionados
 
