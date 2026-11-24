@@ -1,0 +1,38 @@
+{
+  "run_id": "variante_peso3_30pct_2epocas",
+  "linea_base": "piloto_30pct_2epocas",
+  "cambio_principal": "peso de la clase 1 en la Cross-Entropy",
+  "peso_clase_1": 3.0,
+  "pesos_cross_entropy": [
+    1.0,
+    3.0,
+    1.0,
+    1.0
+  ],
+  "semilla": 42,
+  "epocas": 2,
+  "batch_size": 2,
+  "tasa_aprendizaje": 0.0001,
+  "hilos_cpu": 4,
+  "dispositivo": "cpu",
+  "modalidades": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "fraccion_pacientes": 0.3,
+  "estudios_entrenamiento": 270,
+  "estudios_validacion": 56,
+  "cortes_entrenamiento": 41850,
+  "cortes_validacion": 8680,
+  "modelo": "UNet2D",
+  "base": 16,
+  "perdida": "CrossEntropy con peso en la clase 1 + Dice suave para clases 1, 2 y 3",
+  "normalizacion": "Por modalidad y estudio: media y desviación estándar de vóxeles no nulos; ceros preservados.",
+  "evaluacion": "Dice por clase y estudio completo, acumulando cortes axiales.",
+  "test": "Reservado; no utilizado.",
+  "checkpoint_cada_lotes": 1000,
+  "version_python": "3.13.18",
+  "version_torch": "2.14.1+cpu"
+}

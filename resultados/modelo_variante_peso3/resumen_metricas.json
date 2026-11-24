@@ -1,0 +1,31 @@
+{
+  "run_id": "variante_peso3_30pct_2epocas",
+  "n_estudios_validacion": 56,
+  "regla_dice": "Dice calculado por estudio en 3D, acumulando todos los cortes. Si referencia y predicción están vacías para una clase, se registra NaN y se excluye de la media.",
+  "ejemplos_visuales_guardados": 3,
+  "clases": {
+    "1": {
+      "n_estudios_con_dice_definido": 56,
+      "media_dice": 0.5935121960319979,
+      "mediana_dice": 0.6639247337979177,
+      "desviacion_estandar_dice": 0.2969252660481658
+    },
+    "2": {
+      "n_estudios_con_dice_definido": 56,
+      "media_dice": 0.7402998998354721,
+      "mediana_dice": 0.8181157314661789,
+      "desviacion_estandar_dice": 0.19823559337144295
+    },
+    "3": {
+      "n_estudios_con_dice_definido": 56,
+      "media_dice": 0.7330420550093198,
+      "mediana_dice": 0.8162348257470096,
+      "desviacion_estandar_dice": 0.24306776943362765
+    }
+  },
+  "macro_por_estudio": {
+    "n_estudios_con_dice_definido": 56,
+    "media": 0.6889513836255965,
+    "mediana": 0.7255291630282819
+  }
+}
