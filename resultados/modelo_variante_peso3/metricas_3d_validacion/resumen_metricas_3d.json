@@ -1,0 +1,138 @@
+{
+  "modo_hd95": "agrupado",
+  "n_estudios": 56,
+  "n_pacientes": 51,
+  "verificacion_dice_max_dif_vs_csv_original": 1.1102230246251565e-16,
+  "por_estudio": {
+    "dice_tumor_completo": {
+      "n": 56,
+      "media": 0.8432397903976742,
+      "mediana": 0.899012612793935,
+      "desviacion_estandar": 0.17496788389480245,
+      "minimo": 0.05256264734130795,
+      "maximo": 0.9732242856770765
+    },
+    "hd95_tumor_completo_mm": {
+      "n": 56,
+      "media": 15.370009049038954,
+      "mediana": 5.0,
+      "desviacion_estandar": 22.873967734746206,
+      "minimo": 1.4142135623730951,
+      "maximo": 114.06138698087096
+    },
+    "dice_clase_1": {
+      "n": 56,
+      "media": 0.5935121960319979,
+      "mediana": 0.6639247337979177,
+      "desviacion_estandar": 0.2969252660481658,
+      "minimo": 0.0,
+      "maximo": 0.9510362104304259
+    },
+    "hd95_clase_1_mm": {
+      "n": 53,
+      "media": 13.72217533195291,
+      "mediana": 10.770329614269007,
+      "desviacion_estandar": 12.49719095060543,
+      "minimo": 1.0,
+      "maximo": 58.89609207783086
+    },
+    "dice_clase_2": {
+      "n": 56,
+      "media": 0.7402998998354721,
+      "mediana": 0.8181157314661789,
+      "desviacion_estandar": 0.19823559337144295,
+      "minimo": 0.05292772991032179,
+      "maximo": 0.953833304674642
+    },
+    "hd95_clase_2_mm": {
+      "n": 56,
+      "media": 12.178485059863005,
+      "mediana": 4.58257569495584,
+      "desviacion_estandar": 19.723485943887113,
+      "minimo": 1.4142135623730951,
+      "maximo": 114.10521452062903
+    },
+    "dice_clase_3": {
+      "n": 56,
+      "media": 0.7330420550093198,
+      "mediana": 0.8162348257470096,
+      "desviacion_estandar": 0.24306776943362765,
+      "minimo": 0.0,
+      "maximo": 0.9527518431607502
+    },
+    "hd95_clase_3_mm": {
+      "n": 55,
+      "media": 12.705795480996153,
+      "mediana": 4.47213595499958,
+      "desviacion_estandar": 18.829533679030455,
+      "minimo": 1.0,
+      "maximo": 80.51086883148137
+    }
+  },
+  "por_paciente": {
+    "dice_tumor_completo": {
+      "n": 51,
+      "media": 0.8605849032291752,
+      "mediana": 0.905667716964251,
+      "desviacion_estandar": 0.13209307839748297,
+      "minimo": 0.35917135819275026,
+      "maximo": 0.9716495397294974
+    },
+    "hd95_tumor_completo_mm": {
+      "n": 51,
+      "media": 13.769068126303878,
+      "mediana": 5.0,
+      "desviacion_estandar": 20.10526776976331,
+      "minimo": 1.4142135623730951,
+      "maximo": 98.41517123371601
+    },
+    "dice_clase_1": {
+      "n": 51,
+      "media": 0.6094607984729518,
+      "mediana": 0.665896843725943,
+      "desviacion_estandar": 0.2776577450231478,
+      "minimo": 0.0,
+      "maximo": 0.9510362104304259
+    },
+    "hd95_clase_1_mm": {
+      "n": 50,
+      "media": 13.531214357093836,
+      "mediana": 9.994937035780946,
+      "desviacion_estandar": 12.479396130008338,
+      "minimo": 1.0,
+      "maximo": 58.89609207783086
+    },
+    "dice_clase_2": {
+      "n": 51,
+      "media": 0.756605562831231,
+      "mediana": 0.8270582683149565,
+      "desviacion_estandar": 0.17328550420924174,
+      "minimo": 0.26473896725292606,
+      "maximo": 0.953833304674642
+    },
+    "hd95_clase_2_mm": {
+      "n": 51,
+      "media": 10.870569225691941,
+      "mediana": 4.58257569495584,
+      "desviacion_estandar": 16.34142672063935,
+      "minimo": 1.4142135623730951,
+      "maximo": 74.66508601752095
+    },
+    "dice_clase_3": {
+      "n": 51,
+      "media": 0.7453789995754493,
+      "mediana": 0.8392894571368685,
+      "desviacion_estandar": 0.22008701075821385,
+      "minimo": 0.0003578201595877912,
+      "maximo": 0.9527518431607502
+    },
+    "hd95_clase_3_mm": {
+      "n": 51,
+      "media": 12.088705110941788,
+      "mediana": 4.898979485566356,
+      "desviacion_estandar": 17.109887027252427,
+      "minimo": 1.0,
+      "maximo": 67.58696643369927
+    }
+  }
+}
