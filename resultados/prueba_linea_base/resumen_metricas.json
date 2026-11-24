@@ -1,0 +1,32 @@
+{
+  "run_id": "prueba_piloto_30pct_2epocas",
+  "regla_dice": "Dice calculado por estudio en 3D, acumulando todos los cortes. Si referencia y predicción están vacías para una clase, se registra NaN y se excluye de la media.",
+  "ejemplos_visuales_guardados": 3,
+  "clases": {
+    "1": {
+      "n_estudios_con_dice_definido": 186,
+      "media_dice": 0.6191769659943441,
+      "mediana_dice": 0.7595225938495822,
+      "desviacion_estandar_dice": 0.32261261696919225
+    },
+    "2": {
+      "n_estudios_con_dice_definido": 188,
+      "media_dice": 0.7495450815806834,
+      "mediana_dice": 0.7986353297725122,
+      "desviacion_estandar_dice": 0.17839767640952173
+    },
+    "3": {
+      "n_estudios_con_dice_definido": 188,
+      "media_dice": 0.7663443646123139,
+      "mediana_dice": 0.8546394880388807,
+      "desviacion_estandar_dice": 0.23779084748363027
+    }
+  },
+  "macro_por_estudio": {
+    "n_estudios_con_dice_definido": 188,
+    "media": 0.7113488051869191,
+    "mediana": 0.7788700054425686
+  },
+  "n_estudios_evaluados": 188,
+  "particion": "test"
+}

@@ -1,0 +1,243 @@
+Dataset test: 188 estudios, 29140 cortes indexados.
+{
+  "run_id": "prueba_piloto_30pct_2epocas",
+  "particion": "test",
+  "manifest": "resultados/particion/manifest_con_split.csv",
+  "checkpoint": "resultados/modelo_piloto/unet2d_piloto_30pct.pth",
+  "checkpoint_sha256": "1cd6de46fda9e5e2c60cff276c1dc294b567e846526fff9a7c5d8a227f0a9972",
+  "checkpoint_epoca": 2,
+  "checkpoint_run_id": "piloto_30pct_2epocas",
+  "estudios_evaluados": 188,
+  "pacientes_evaluados": 170,
+  "cortes_evaluados": 29140,
+  "modalidades": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "batch_size": 2,
+  "hilos_cpu": 4,
+  "dispositivo": "cpu",
+  "version_python": "3.13.18",
+  "version_torch": "2.14.1+cpu",
+  "nota": "Inferencia con parámetros congelados; no se entrena ni se ajusta nada con estos resultados."
+}
+Figura guardada: BraTS-GLI-00000-000, corte z=74
+Validación 1/188: BraTS-GLI-00000-000 | Dice C1=0.9569 C2=0.6610 C3=0.9438
+Figura guardada: BraTS-GLI-00005-000, corte z=100
+Validación 2/188: BraTS-GLI-00005-000 | Dice C1=0.9535 C2=0.8970 C3=0.8509
+Figura guardada: BraTS-GLI-00019-000, corte z=79
+Validación 3/188: BraTS-GLI-00019-000 | Dice C1=0.2693 C2=0.8231 C3=0.7891
+Validación 4/188: BraTS-GLI-00026-000 | Dice C1=0.7657 C2=0.6457 C3=0.8150
+Validación 5/188: BraTS-GLI-00032-000 | Dice C1=0.8107 C2=0.9243 C3=0.8740
+Validación 6/188: BraTS-GLI-00032-001 | Dice C1=0.3887 C2=0.9204 C3=0.9301
+Validación 7/188: BraTS-GLI-00077-000 | Dice C1=0.8542 C2=0.8638 C3=0.9122
+Validación 8/188: BraTS-GLI-00084-000 | Dice C1=0.6556 C2=0.8113 C3=0.8670
+Validación 9/188: BraTS-GLI-00084-001 | Dice C1=0.0000 C2=0.4281 C3=0.2624
+Validación 10/188: BraTS-GLI-00090-000 | Dice C1=0.6919 C2=0.9220 C3=0.8559
+Validación 11/188: BraTS-GLI-00090-001 | Dice C1=0.1856 C2=0.8486 C3=0.7463
+Validación 12/188: BraTS-GLI-00095-000 | Dice C1=0.9179 C2=0.8568 C3=0.8354
+Validación 13/188: BraTS-GLI-00095-001 | Dice C1=0.9223 C2=0.7850 C3=0.8917
+Validación 14/188: BraTS-GLI-00099-000 | Dice C1=0.9378 C2=0.7945 C3=0.8495
+Validación 15/188: BraTS-GLI-00099-001 | Dice C1=0.3744 C2=0.7786 C3=0.7062
+Validación 16/188: BraTS-GLI-00104-000 | Dice C1=0.7437 C2=0.8584 C3=0.9099
+Validación 17/188: BraTS-GLI-00115-000 | Dice C1=0.9081 C2=0.8385 C3=0.8885
+Validación 18/188: BraTS-GLI-00123-000 | Dice C1=0.8113 C2=0.8064 C3=0.9235
+Validación 19/188: BraTS-GLI-00124-000 | Dice C1=0.0079 C2=0.4214 C3=0.4636
+Validación 20/188: BraTS-GLI-00131-000 | Dice C1=0.4638 C2=0.8366 C3=0.8671
+Validación 21/188: BraTS-GLI-00134-000 | Dice C1=0.7032 C2=0.4001 C3=0.6396
+Validación 22/188: BraTS-GLI-00149-000 | Dice C1=0.0064 C2=0.3186 C3=0.6393
+Validación 23/188: BraTS-GLI-00156-000 | Dice C1=0.9633 C2=0.9351 C3=0.9675
+Validación 24/188: BraTS-GLI-00184-000 | Dice C1=0.8003 C2=0.9050 C3=0.9052
+Validación 25/188: BraTS-GLI-00191-000 | Dice C1=0.7399 C2=0.9117 C3=0.9252
+Validación 26/188: BraTS-GLI-00201-000 | Dice C1=0.8419 C2=0.8904 C3=0.8756
+Validación 27/188: BraTS-GLI-00207-000 | Dice C1=0.5103 C2=0.8850 C3=0.7349
+Validación 28/188: BraTS-GLI-00220-000 | Dice C1=0.7514 C2=0.7384 C3=0.8691
+Validación 29/188: BraTS-GLI-00230-000 | Dice C1=0.9411 C2=0.8977 C3=0.8571
+Validación 30/188: BraTS-GLI-00233-000 | Dice C1=0.7086 C2=0.9435 C3=0.9123
+Validación 31/188: BraTS-GLI-00235-000 | Dice C1=0.9693 C2=0.9266 C3=0.9062
+Validación 32/188: BraTS-GLI-00251-000 | Dice C1=0.8876 C2=0.7702 C3=0.8653
+Validación 33/188: BraTS-GLI-00259-000 | Dice C1=0.9337 C2=0.9375 C3=0.9391
+Validación 34/188: BraTS-GLI-00263-000 | Dice C1=0.8150 C2=0.9457 C3=0.9012
+Validación 35/188: BraTS-GLI-00269-000 | Dice C1=0.8949 C2=0.8733 C3=0.9341
+Validación 36/188: BraTS-GLI-00271-000 | Dice C1=0.5734 C2=0.8938 C3=0.9234
+Validación 37/188: BraTS-GLI-00283-000 | Dice C1=0.9077 C2=0.6697 C3=0.8417
+Validación 38/188: BraTS-GLI-00289-000 | Dice C1=0.5354 C2=0.7393 C3=0.8400
+Validación 39/188: BraTS-GLI-00292-000 | Dice C1=0.6714 C2=0.5976 C3=0.6233
+Validación 40/188: BraTS-GLI-00296-000 | Dice C1=0.8247 C2=0.8264 C3=0.9141
+Validación 41/188: BraTS-GLI-00314-000 | Dice C1=0.7730 C2=0.4182 C3=0.9398
+Validación 42/188: BraTS-GLI-00320-000 | Dice C1=0.5325 C2=0.7752 C3=0.5865
+Validación 43/188: BraTS-GLI-00328-000 | Dice C1=0.6145 C2=0.8268 C3=0.7984
+Validación 44/188: BraTS-GLI-00344-000 | Dice C1=0.8406 C2=0.6299 C3=0.8493
+Validación 45/188: BraTS-GLI-00346-000 | Dice C1=0.8408 C2=0.9391 C3=0.9006
+Validación 46/188: BraTS-GLI-00359-000 | Dice C1=0.6791 C2=0.9311 C3=0.9451
+Validación 47/188: BraTS-GLI-00380-000 | Dice C1=0.0000 C2=0.6114 C3=0.2007
+Validación 48/188: BraTS-GLI-00401-000 | Dice C1=0.9476 C2=0.8449 C3=0.8843
+Validación 49/188: BraTS-GLI-00403-000 | Dice C1=0.8729 C2=0.8002 C3=0.9197
+Validación 50/188: BraTS-GLI-00412-000 | Dice C1=0.0000 C2=0.8769 C3=0.0106
+Validación 51/188: BraTS-GLI-00423-000 | Dice C1=0.8737 C2=0.5969 C3=0.9240
+Validación 52/188: BraTS-GLI-00431-000 | Dice C1=0.8808 C2=0.4041 C3=0.8177
+Validación 53/188: BraTS-GLI-00444-000 | Dice C1=0.0000 C2=0.5065 C3=0.8316
+Validación 54/188: BraTS-GLI-00445-000 | Dice C1=0.6471 C2=0.8544 C3=0.9243
+Validación 55/188: BraTS-GLI-00451-000 | Dice C1=0.7746 C2=0.8739 C3=0.9140
+Validación 56/188: BraTS-GLI-00464-000 | Dice C1=0.5827 C2=0.4351 C3=0.6899
+Validación 57/188: BraTS-GLI-00464-001 | Dice C1=0.0020 C2=0.5117 C3=0.5244
+Validación 58/188: BraTS-GLI-00466-000 | Dice C1=0.4766 C2=0.8544 C3=0.8094
+Validación 59/188: BraTS-GLI-00472-000 | Dice C1=0.3714 C2=0.7427 C3=0.5677
+Validación 60/188: BraTS-GLI-00478-000 | Dice C1=0.8234 C2=0.7804 C3=0.9033
+Validación 61/188: BraTS-GLI-00478-001 | Dice C1=0.0424 C2=0.7148 C3=0.9164
+Validación 62/188: BraTS-GLI-00479-000 | Dice C1=0.9652 C2=0.5279 C3=0.9249
+Validación 63/188: BraTS-GLI-00479-001 | Dice C1=0.6839 C2=0.9481 C3=0.9552
+Validación 64/188: BraTS-GLI-00504-000 | Dice C1=0.0902 C2=0.8563 C3=0.7565
+Validación 65/188: BraTS-GLI-00532-000 | Dice C1=0.4179 C2=0.7743 C3=0.6577
+Validación 66/188: BraTS-GLI-00548-000 | Dice C1=0.9310 C2=0.8733 C3=0.9025
+Validación 67/188: BraTS-GLI-00548-001 | Dice C1=0.8843 C2=0.9562 C3=0.9412
+Validación 68/188: BraTS-GLI-00561-000 | Dice C1=0.8746 C2=0.9017 C3=0.8957
+Validación 69/188: BraTS-GLI-00579-000 | Dice C1=0.9063 C2=0.9477 C3=0.9493
+Validación 70/188: BraTS-GLI-00606-000 | Dice C1=0.8884 C2=0.6781 C3=0.8140
+Validación 71/188: BraTS-GLI-00610-000 | Dice C1=0.8454 C2=0.7021 C3=0.7110
+Validación 72/188: BraTS-GLI-00610-001 | Dice C1=0.2333 C2=0.7868 C3=0.1459
+Validación 73/188: BraTS-GLI-00613-000 | Dice C1=0.4670 C2=0.2790 C3=0.4659
+Validación 74/188: BraTS-GLI-00613-001 | Dice C1=0.0000 C2=0.5825 C3=0.2714
+Validación 75/188: BraTS-GLI-00620-000 | Dice C1=0.8838 C2=0.8881 C3=0.9597
+Validación 76/188: BraTS-GLI-00620-001 | Dice C1=0.7372 C2=0.8763 C3=0.9585
+Validación 77/188: BraTS-GLI-00625-000 | Dice C1=0.9809 C2=0.7570 C3=0.9085
+Validación 78/188: BraTS-GLI-00628-000 | Dice C1=0.0576 C2=0.8887 C3=0.8370
+Validación 79/188: BraTS-GLI-00631-000 | Dice C1=0.9787 C2=0.8280 C3=0.8609
+Validación 80/188: BraTS-GLI-00638-000 | Dice C1=0.7893 C2=0.6138 C3=0.8003
+Validación 81/188: BraTS-GLI-00646-000 | Dice C1=0.8362 C2=0.6751 C3=0.9485
+Validación 82/188: BraTS-GLI-00646-001 | Dice C1=0.8112 C2=0.8870 C3=0.9512
+Validación 83/188: BraTS-GLI-00656-000 | Dice C1=0.0441 C2=0.7526 C3=0.3109
+Validación 84/188: BraTS-GLI-00658-000 | Dice C1=0.7861 C2=0.7160 C3=0.7350
+Validación 85/188: BraTS-GLI-00663-000 | Dice C1=0.8981 C2=0.9327 C3=0.9417
+Validación 86/188: BraTS-GLI-00679-000 | Dice C1=0.7570 C2=0.8097 C3=0.7726
+Validación 87/188: BraTS-GLI-00707-000 | Dice C1=0.7912 C2=0.8065 C3=0.9201
+Validación 88/188: BraTS-GLI-00714-000 | Dice C1=0.8983 C2=0.7751 C3=0.7925
+Validación 89/188: BraTS-GLI-00714-001 | Dice C1=0.8993 C2=0.9485 C3=0.8929
+Validación 90/188: BraTS-GLI-00715-000 | Dice C1=0.8502 C2=0.7695 C3=0.9487
+Validación 91/188: BraTS-GLI-00715-001 | Dice C1=0.4848 C2=0.8982 C3=0.9279
+Validación 92/188: BraTS-GLI-00724-000 | Dice C1=0.8726 C2=0.8915 C3=0.8787
+Validación 93/188: BraTS-GLI-00732-000 | Dice C1=0.0000 C2=0.3745 C3=0.4278
+Validación 94/188: BraTS-GLI-00732-001 | Dice C1=nan C2=0.3065 C3=0.8764
+Validación 95/188: BraTS-GLI-00734-000 | Dice C1=0.8641 C2=0.8120 C3=0.7516
+Validación 96/188: BraTS-GLI-00734-001 | Dice C1=0.8499 C2=0.8821 C3=0.9398
+Validación 97/188: BraTS-GLI-00740-000 | Dice C1=0.5976 C2=0.8894 C3=0.7388
+Validación 98/188: BraTS-GLI-00774-000 | Dice C1=0.6270 C2=0.9256 C3=0.9282
+Validación 99/188: BraTS-GLI-00774-001 | Dice C1=0.0038 C2=0.9463 C3=0.9047
+Validación 100/188: BraTS-GLI-00778-000 | Dice C1=0.9051 C2=0.7668 C3=0.9066
+Validación 101/188: BraTS-GLI-00780-000 | Dice C1=0.8749 C2=0.9439 C3=0.8534
+Validación 102/188: BraTS-GLI-00781-000 | Dice C1=0.8714 C2=0.8263 C3=0.9126
+Validación 103/188: BraTS-GLI-00787-000 | Dice C1=0.5824 C2=0.8969 C3=0.9227
+Validación 104/188: BraTS-GLI-00789-000 | Dice C1=0.8679 C2=0.9451 C3=0.8336
+Validación 105/188: BraTS-GLI-00795-000 | Dice C1=0.5411 C2=0.7189 C3=0.8529
+Validación 106/188: BraTS-GLI-00807-000 | Dice C1=0.6663 C2=0.6936 C3=0.8562
+Validación 107/188: BraTS-GLI-00816-000 | Dice C1=0.8021 C2=0.9497 C3=0.9279
+Validación 108/188: BraTS-GLI-00837-000 | Dice C1=0.9679 C2=0.7706 C3=0.8489
+Validación 109/188: BraTS-GLI-01008-000 | Dice C1=0.6346 C2=0.8563 C3=0.9036
+Validación 110/188: BraTS-GLI-01016-000 | Dice C1=0.7403 C2=0.8370 C3=0.8973
+Validación 111/188: BraTS-GLI-01029-000 | Dice C1=0.3076 C2=0.9025 C3=0.9361
+Validación 112/188: BraTS-GLI-01039-000 | Dice C1=0.7845 C2=0.4007 C3=0.8987
+Validación 113/188: BraTS-GLI-01056-000 | Dice C1=0.8006 C2=0.7148 C3=0.7833
+Validación 114/188: BraTS-GLI-01060-000 | Dice C1=0.9280 C2=0.7565 C3=0.9030
+Validación 115/188: BraTS-GLI-01062-000 | Dice C1=0.9672 C2=0.9368 C3=0.9348
+Validación 116/188: BraTS-GLI-01070-000 | Dice C1=0.8924 C2=0.6622 C3=0.8353
+Validación 117/188: BraTS-GLI-01080-000 | Dice C1=0.8793 C2=0.7466 C3=0.8652
+Validación 118/188: BraTS-GLI-01105-000 | Dice C1=0.8957 C2=0.9214 C3=0.8636
+Validación 119/188: BraTS-GLI-01112-000 | Dice C1=0.6844 C2=0.7446 C3=0.6817
+Validación 120/188: BraTS-GLI-01120-000 | Dice C1=0.9251 C2=0.8360 C3=0.8981
+Validación 121/188: BraTS-GLI-01143-000 | Dice C1=0.5819 C2=0.5540 C3=0.8139
+Validación 122/188: BraTS-GLI-01151-000 | Dice C1=0.2490 C2=0.6111 C3=0.8040
+Validación 123/188: BraTS-GLI-01152-000 | Dice C1=0.0740 C2=0.3489 C3=0.5677
+Validación 124/188: BraTS-GLI-01155-000 | Dice C1=0.8398 C2=0.9011 C3=0.8644
+Validación 125/188: BraTS-GLI-01156-000 | Dice C1=0.8166 C2=0.6990 C3=0.6657
+Validación 126/188: BraTS-GLI-01157-000 | Dice C1=0.7145 C2=0.6603 C3=0.7066
+Validación 127/188: BraTS-GLI-01163-000 | Dice C1=0.7030 C2=0.6686 C3=0.7051
+Validación 128/188: BraTS-GLI-01165-000 | Dice C1=0.9198 C2=0.8730 C3=0.9395
+Validación 129/188: BraTS-GLI-01174-000 | Dice C1=0.6252 C2=0.5032 C3=0.8281
+Validación 130/188: BraTS-GLI-01191-000 | Dice C1=0.8424 C2=0.7661 C3=0.6909
+Validación 131/188: BraTS-GLI-01193-000 | Dice C1=0.5339 C2=0.6763 C3=0.7055
+Validación 132/188: BraTS-GLI-01194-000 | Dice C1=0.7592 C2=0.7008 C3=0.6754
+Validación 133/188: BraTS-GLI-01196-000 | Dice C1=0.6255 C2=0.7323 C3=0.8423
+Validación 134/188: BraTS-GLI-01197-000 | Dice C1=0.9384 C2=0.9115 C3=0.9397
+Validación 135/188: BraTS-GLI-01204-000 | Dice C1=0.7768 C2=0.5579 C3=0.8473
+Validación 136/188: BraTS-GLI-01213-000 | Dice C1=0.8809 C2=0.7650 C3=0.6835
+Validación 137/188: BraTS-GLI-01226-000 | Dice C1=0.6413 C2=0.7970 C3=0.8107
+Validación 138/188: BraTS-GLI-01233-000 | Dice C1=0.7599 C2=0.7907 C3=0.8524
+Validación 139/188: BraTS-GLI-01237-000 | Dice C1=0.5360 C2=0.6816 C3=0.7742
+Validación 140/188: BraTS-GLI-01242-000 | Dice C1=0.8167 C2=0.7758 C3=0.8994
+Validación 141/188: BraTS-GLI-01251-000 | Dice C1=0.9117 C2=0.8609 C3=0.9035
+Validación 142/188: BraTS-GLI-01267-000 | Dice C1=0.7414 C2=0.5911 C3=0.8933
+Validación 143/188: BraTS-GLI-01275-000 | Dice C1=0.9219 C2=0.8096 C3=0.7786
+Validación 144/188: BraTS-GLI-01277-000 | Dice C1=0.4264 C2=0.8161 C3=0.8256
+Validación 145/188: BraTS-GLI-01280-000 | Dice C1=0.8419 C2=0.8725 C3=0.9339
+Validación 146/188: BraTS-GLI-01281-000 | Dice C1=0.8538 C2=0.8105 C3=0.7797
+Validación 147/188: BraTS-GLI-01293-000 | Dice C1=0.0259 C2=0.7264 C3=0.5397
+Validación 148/188: BraTS-GLI-01307-000 | Dice C1=0.9169 C2=0.9535 C3=0.9332
+Validación 149/188: BraTS-GLI-01312-000 | Dice C1=0.8670 C2=0.9189 C3=0.9474
+Validación 150/188: BraTS-GLI-01315-000 | Dice C1=0.9307 C2=0.8501 C3=0.8575
+Validación 151/188: BraTS-GLI-01335-000 | Dice C1=0.2684 C2=0.9144 C3=0.8816
+Validación 152/188: BraTS-GLI-01344-000 | Dice C1=0.0136 C2=0.7610 C3=0.9505
+Validación 153/188: BraTS-GLI-01350-000 | Dice C1=nan C2=0.9102 C3=0.0000
+Validación 154/188: BraTS-GLI-01355-000 | Dice C1=0.1830 C2=0.8968 C3=0.9098
+Validación 155/188: BraTS-GLI-01356-000 | Dice C1=0.0507 C2=0.5367 C3=0.7337
+Validación 156/188: BraTS-GLI-01360-000 | Dice C1=0.8798 C2=0.8598 C3=0.9256
+Validación 157/188: BraTS-GLI-01362-000 | Dice C1=0.7828 C2=0.9270 C3=0.8892
+Validación 158/188: BraTS-GLI-01367-000 | Dice C1=0.1037 C2=0.7815 C3=0.7189
+Validación 159/188: BraTS-GLI-01374-000 | Dice C1=0.8417 C2=0.9280 C3=0.9484
+Validación 160/188: BraTS-GLI-01385-000 | Dice C1=0.8792 C2=0.7071 C3=0.9275
+Validación 161/188: BraTS-GLI-01392-000 | Dice C1=0.9535 C2=0.6789 C3=0.9527
+Validación 162/188: BraTS-GLI-01395-000 | Dice C1=0.0000 C2=0.8427 C3=0.8162
+Validación 163/188: BraTS-GLI-01411-000 | Dice C1=0.8916 C2=0.7051 C3=0.8761
+Validación 164/188: BraTS-GLI-01424-000 | Dice C1=0.8001 C2=0.5139 C3=0.6952
+Validación 165/188: BraTS-GLI-01426-000 | Dice C1=0.8033 C2=0.8063 C3=0.7499
+Validación 166/188: BraTS-GLI-01433-000 | Dice C1=0.0171 C2=0.8079 C3=0.0000
+Validación 167/188: BraTS-GLI-01438-000 | Dice C1=0.0095 C2=0.4051 C3=0.7850
+Validación 168/188: BraTS-GLI-01450-000 | Dice C1=0.8513 C2=0.8124 C3=0.8761
+Validación 169/188: BraTS-GLI-01455-000 | Dice C1=0.7803 C2=0.8395 C3=0.8586
+Validación 170/188: BraTS-GLI-01478-000 | Dice C1=0.5407 C2=0.5150 C3=0.1626
+Validación 171/188: BraTS-GLI-01480-000 | Dice C1=0.0000 C2=0.1742 C3=0.0000
+Validación 172/188: BraTS-GLI-01481-000 | Dice C1=0.3403 C2=0.8497 C3=0.7303
+Validación 173/188: BraTS-GLI-01488-000 | Dice C1=0.2066 C2=0.6871 C3=0.7121
+Validación 174/188: BraTS-GLI-01496-000 | Dice C1=0.4234 C2=0.7736 C3=0.0085
+Validación 175/188: BraTS-GLI-01507-000 | Dice C1=0.1355 C2=0.0528 C3=0.7144
+Validación 176/188: BraTS-GLI-01510-000 | Dice C1=0.0258 C2=0.4745 C3=0.0000
+Validación 177/188: BraTS-GLI-01516-000 | Dice C1=0.0000 C2=0.4738 C3=0.5053
+Validación 178/188: BraTS-GLI-01522-000 | Dice C1=0.2072 C2=0.7729 C3=0.8280
+Validación 179/188: BraTS-GLI-01523-000 | Dice C1=0.0254 C2=0.4495 C3=0.3199
+Validación 180/188: BraTS-GLI-01527-000 | Dice C1=0.7461 C2=0.5691 C3=0.0387
+Validación 181/188: BraTS-GLI-01532-000 | Dice C1=0.5152 C2=0.2557 C3=0.2142
+Validación 182/188: BraTS-GLI-01534-000 | Dice C1=0.0169 C2=0.2976 C3=0.0000
+Validación 183/188: BraTS-GLI-01610-000 | Dice C1=0.0000 C2=0.6717 C3=0.7711
+Validación 184/188: BraTS-GLI-01657-000 | Dice C1=0.7927 C2=0.9095 C3=0.8571
+Validación 185/188: BraTS-GLI-01660-000 | Dice C1=0.2664 C2=0.6710 C3=0.7742
+Validación 186/188: BraTS-GLI-01661-000 | Dice C1=0.3539 C2=0.8197 C3=0.9405
+Validación 187/188: BraTS-GLI-01663-000 | Dice C1=0.0166 C2=0.9288 C3=0.3184
+Validación 188/188: BraTS-GLI-01666-000 | Dice C1=0.1920 C2=0.6022 C3=0.0000
+
+INFERENCIA TERMINADA
+Predicciones: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/predicciones
+Métricas por estudio: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/metricas_por_estudio.csv
+Resumen: /home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/resumen_metricas.json
+Tiempo: 34.4 min
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/estudiante/Proyecto_Imagenes_Medicas/codigo/entrenamiento/inferir_particion.py", line 163, in <module>
+    main()
+    ~~~~^^
+  File "/home/estudiante/Proyecto_Imagenes_Medicas/codigo/entrenamiento/inferir_particion.py", line 87, in main
+    base.comprobar_salidas_libres()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/estudiante/Proyecto_Imagenes_Medicas/codigo/entrenamiento/entrenar_piloto.py", line 113, in comprobar_salidas_libres
+    raise FileExistsError(
+    ...<3 lines>...
+    )
+FileExistsError: Se encontraron salidas anteriores. No se sobrescribirán:
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/metricas_por_estudio.csv
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/resultados.csv
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/configuracion.json
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/resumen_metricas.json
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/predicciones (contiene archivos)
+/home/estudiante/Proyecto_Imagenes_Medicas/resultados/prueba_linea_base/ejemplos (contiene archivos)
+Archiva o renombra esos resultados antes de ejecutar.

@@ -1,0 +1,24 @@
+{
+  "run_id": "prueba_piloto_30pct_2epocas",
+  "particion": "test",
+  "manifest": "resultados/particion/manifest_con_split.csv",
+  "checkpoint": "resultados/modelo_piloto/unet2d_piloto_30pct.pth",
+  "checkpoint_sha256": "1cd6de46fda9e5e2c60cff276c1dc294b567e846526fff9a7c5d8a227f0a9972",
+  "checkpoint_epoca": 2,
+  "checkpoint_run_id": "piloto_30pct_2epocas",
+  "estudios_evaluados": 188,
+  "pacientes_evaluados": 170,
+  "cortes_evaluados": 29140,
+  "modalidades": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "batch_size": 2,
+  "hilos_cpu": 4,
+  "dispositivo": "cpu",
+  "version_python": "3.13.18",
+  "version_torch": "2.14.1+cpu",
+  "nota": "Inferencia con parámetros congelados; no se entrena ni se ajusta nada con estos resultados."
+}
