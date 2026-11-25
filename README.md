@@ -69,7 +69,7 @@ flowchart LR
 
 Ojo con los nombres: `modelo_piloto/` y `modelo_variante_peso3/` contienen resultados de **validación**; `prueba_linea_base/` contiene la evaluación en **prueba** de la línea base. `resultados/prueba_linea_base_log.txt` es el registro de consola de esa evaluación.
 
-El código construye sus rutas desde la ubicación de los propios scripts. Ejecuta los comandos desde la raíz del repositorio para que Python encuentre el paquete `codigo`. Los archivos NIfTI originales, checkpoints (`.pth`, `.pt`) y predicciones `.npz` están ignorados por Git; los informes y algunas figuras sí están versionados. La única excepción es el checkpoint de la línea base, `resultados/modelo_piloto/unet2d_piloto_30pct.pth`, que se versionó a propósito porque es la versión congelada evaluada en prueba (SHA-256 `1cd6de46fda9e5e2c60cff276c1dc294b567e846526fff9a7c5d8a227f0a9972`, registrado también en `resultados/prueba_linea_base/configuracion.json`). El checkpoint de la variante no está versionado.
+El código construye sus rutas desde la ubicación de los propios scripts. Ejecuta los comandos desde la raíz del repositorio para que Python encuentre el paquete `codigo`. Los archivos NIfTI originales y las predicciones `.npz` están ignorados por Git; los informes, algunas figuras y los dos checkpoints finales (`resultados/modelo_piloto/unet2d_piloto_30pct.pth` y `resultados/modelo_variante_peso3/unet2d_variante_30pct.pth`) sí están versionados. Las predicciones (`.npz`) no se incluyen porque derivan de datos de acceso controlado de Synapse; se regeneran con `codigo/entrenamiento/inferir_particion.py` y los checkpoints incluidos.
 
 ## ¿Cómo empezar?
 
